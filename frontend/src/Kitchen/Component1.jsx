@@ -1,5 +1,5 @@
 export default function Component1() {
-    const mobiles = [
+    const Kitchen = [
       { image: "/KitchenPage/Kitchen14.png", brand: "Coolers" },
       { image: "/KitchenPage/Kitchen15.png", brand: "Water bottles" },
       { image: "/KitchenPage/Kitchen16.png", brand: "Inverters" },
@@ -16,7 +16,7 @@ export default function Component1() {
         <div className="container-fluid px-4">
           <h4 className="fw-bold mb-4">Most searched products</h4>
           <div className="d-flex flex-nowrap overflow-auto">
-            {mobiles.map((item, index) => (
+            {Kitchen.map((item, index) => (
               <div
                 key={index}
                 className="bg-light border rounded-4 p-3 me-3 text-center shadow-sm"

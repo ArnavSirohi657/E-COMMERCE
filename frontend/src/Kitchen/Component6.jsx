@@ -1,5 +1,5 @@
 export default function Component5() {
-    const mobiles = [
+    const Kitchen = [
       { image: "/KitchenPage/Kitchen48.png" },
       { image: "/KitchenPage/Kitchen49.png" },
       { image: "/KitchenPage/Kitchen50.png" },
@@ -16,7 +16,7 @@ export default function Component5() {
             className="d-flex flex-nowrap overflow-auto"
             style={{ gap: "3rem" }}
           >
-            {mobiles.map((item, index) => (
+            {Kitchen.map((item, index) => (
               <div
                 key={index}
                 className="bg-light border rounded-4 p-3 text-center shadow-sm"

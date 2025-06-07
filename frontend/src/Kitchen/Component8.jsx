@@ -1,17 +1,16 @@
-export default function Component5() {
+export default function Component8() {
     const Kitchen = [
-      { image: "/KitchenPage/Kitchen42.png" },
-      { image: "/KitchenPage/Kitchen43.png" },
-      { image: "/KitchenPage/Kitchen44.png" },
-      { image: "/KitchenPage/Kitchen45.png" },
-      { image: "/KitchenPage/Kitchen46.png" },
-      { image: "/KitchenPage/Kitchen47.png" },
+      { image: "/KitchenPage/Kitchen61.png" },
+      { image: "/KitchenPage/Kitchen62.png" },
+      { image: "/KitchenPage/Kitchen63.png" },
+      { image: "/KitchenPage/Kitchen64.png" },
+      { image: "/KitchenPage/Kitchen65.png" },
+      { image: "/KitchenPage/Kitchen66.png" },
     ];
   
     return (
       <div style={{ backgroundColor: "#007bff" }} className="py-4"> {/* Blue background */}
         <div className="container-fluid px-4">
-          <h4 className="fw-bold mb-4 text-white">Shop for kitchen</h4> {/* White text for contrast */}
           <div
             className="d-flex flex-nowrap overflow-auto"
             style={{ gap: "3rem" }}

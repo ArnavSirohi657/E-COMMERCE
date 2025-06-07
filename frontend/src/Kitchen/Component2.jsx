@@ -1,5 +1,5 @@
 export default function Component2() {
-    const mobiles = [
+    const Kitchen = [
       { image: "/KitchenPage/Kitchen24.png" },
       { image: "/KitchenPage/Kitchen25.png" },
       { image: "/KitchenPage/Kitchen26.png" },
@@ -16,7 +16,7 @@ export default function Component2() {
             className="d-flex flex-nowrap overflow-auto"
             style={{ gap: "3rem" }} // 👈 increased gap here
           >
-            {mobiles.map((item, index) => (
+            {Kitchen.map((item, index) => (
               <div
                 key={index}
                 className="bg-light border rounded-4 p-3 text-center shadow-sm"
