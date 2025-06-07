@@ -1,4 +1,4 @@
-import "../CSS/Desc.css";
+
 
 
 export default function Desc() {
