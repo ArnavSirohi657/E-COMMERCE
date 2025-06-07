@@ -1,0 +1,17 @@
+.toy-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .toy-hover:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .overflow-auto::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .overflow-auto {
+    scrollbar-width: none;
+  }  

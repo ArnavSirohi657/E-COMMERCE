@@ -1,0 +1,11 @@
+.hover-shadow:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+}
+
+.card-image {
+    width: 80px; /* or any size you prefer */
+    height: auto;
+    margin-top: 1rem;
+    align-self: start;
+}

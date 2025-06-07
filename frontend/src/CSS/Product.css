@@ -1,0 +1,9 @@
+/* in your global CSS file */
+div::-webkit-scrollbar {
+    height: 8px;
+  }
+  div::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  

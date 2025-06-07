@@ -1,0 +1,9 @@
+.signup-container {
+  min-height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.signup-card {
+  width: 100%;
+  max-width: 400px;
+}

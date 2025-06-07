@@ -1,0 +1,17 @@
+.nav-link {
+    white-space: nowrap;
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+    transition: color 0.2s;
+  }
+  
+  .nav-link:hover {
+    color: #f0c14b;
+    text-decoration: underline;
+  }
+  .custom-navbar {
+    border-bottom: 1px solid #ccc; /* Light grey like Amazon */
+  }
+    
+
+  

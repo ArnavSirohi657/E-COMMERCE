@@ -1,0 +1,23 @@
+.fees-section {
+    background-color: #ffffff;
+  }
+  
+  .bg-lightblue {
+    background-color: #cceeff;
+    color: #000;
+  }
+  
+  .fee-box {
+    transition: transform 0.3s ease;
+    min-height: 180px;
+    max-width: 1000px;
+  }
+  
+  .fee-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .fees-title img {
+    vertical-align: middle;
+  }
+  

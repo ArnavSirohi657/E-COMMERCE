@@ -1,0 +1,120 @@
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131921;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .location {
+    line-height: 1.2;
+    font-size: 12px;
+  }
+  
+  .small-text {
+    font-size: 11px;
+    color: #ccc;
+  }
+  
+  .topbar-search {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+    max-width: 600px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .search-category {
+    background-color: #e6e6e6;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .topbar-search input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    font-size: 14px;
+  }
+  
+  .topbar-search button {
+    background-color: #febd69;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 13px;
+  }
+  
+  .language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .flag {
+    height: 15px;
+    border-radius: 2px;
+  }
+  
+  .account,
+  .orders,
+  .cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  
+  .topbar-btn {
+    background: none;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+  }
+  
+  .topbar-btn strong {
+    font-size: 13px;
+  }
+  
+  .topbar-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+  }
+  
+  .cart {
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .cart span {
+    font-weight: bold;
+  }
+
+  
