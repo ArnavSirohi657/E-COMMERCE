@@ -1,7 +1,9 @@
+import CarPage from "../Car&Mototbike/CarPage";
+
 export default function CarAndMotorbike(){
     return(
         <div>
-            <h1>CAR&Motorbike</h1>
+            <CarPage/>
         </div>
     )
 }

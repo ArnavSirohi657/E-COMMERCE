@@ -1,7 +1,9 @@
+import ElectronicPage from "../Electronic/ElectronicPage";
+
 export default function Electronic(){
     return(
         <div>
-            <h1>Electronic</h1>
+            <ElectronicPage/>
         </div>
     )
 }

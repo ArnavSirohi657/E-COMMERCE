@@ -9,14 +9,12 @@ export default function NavBar() {
       <div className="container-fluid px-lg-4 px-2">
       <div className="d-flex align-items-center justify-content-start gap-3 overflow-auto flex-nowrap">
 
-          <Link className="nav-link text-white" to="/all">All</Link>
           <Link className="nav-link text-white" to="/sell">Sell</Link>
           <Link className="nav-link text-white" to="/bestsellers">Best Sellers</Link>
           <Link className="nav-link text-white" to="/todaydeal">Today's Deals</Link>
           <Link className="nav-link text-white" to="/mobiles">Mobiles</Link>
           <Link className="nav-link text-white" to="/customerservice">Customer Service</Link>
           <Link className="nav-link text-white" to="/fashion">Fashion</Link>
-          <Link className="nav-link text-white" to="/newrealease">New Releases</Link>
           <Link className="nav-link text-white" to="/electronic">Electronics</Link>
           <Link className="nav-link text-white" to="/homeandkitchen">Home & Kitchen</Link>
           <Link className="nav-link text-white" to="/carandmotorbike">Car & Motorbike</Link>

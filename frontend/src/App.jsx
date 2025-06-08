@@ -1,14 +1,12 @@
 
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Home from "./LandingPage/Home";
-import All from "./LandingPage/All";
 import Sell from "./LandingPage/Sell";
 import BestSellers from "./LandingPage/BestSellers";
 import TodayDeal from "./LandingPage/TodayDeal";
 import Mobiles from "./LandingPage/Mobiles";
 import CustomerService from "./LandingPage/CustomerService";
 import Fashion from "./LandingPage/Fashion";
-import NewRealease from "./LandingPage/NewRealease";
 import Electronic from "./LandingPage/Electronic";
 import HomeAndKitchen from "./LandingPage/HomeAndKitchen";
 import CarAndMotorbike from "./LandingPage/CarAndMotorbike";
@@ -29,14 +27,12 @@ function App() {
     <NavBar/>
     <Routes>
       <Route path="/" element={<Home/>}/>
-      <Route path="/all" element={<All/>}/>
       <Route path="/sell" element={<Sell/>}/>
       <Route path="/bestsellers" element={<BestSellers/>}/>
       <Route path="/todaydeal" element={<TodayDeal/>}/>
       <Route path="/mobiles" element={<Mobiles/>}/>
       <Route path="/customerservice" element={<CustomerService/>}/>
       <Route path="/fashion" element={<Fashion/>}/>
-      <Route path="/newrealease" element={<NewRealease/>}/>
       <Route path="/electronic" element={<Electronic/>}/>
       <Route path="/homeandkitchen" element={<HomeAndKitchen/>}/>
       <Route path="/carandmotorbike" element={<CarAndMotorbike/>}/>
