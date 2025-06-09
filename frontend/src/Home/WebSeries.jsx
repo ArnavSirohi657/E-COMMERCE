@@ -4,7 +4,7 @@ export default function WebSeries() {
         <div className="border rounded bg-white shadow-sm p-3">
           
           <img
-            src="WebSeries.jpg"
+            src="/HomePage/Home88.jpg"
             alt="Web Series"
             className="img-fluid d-block mx-auto"
             style={{

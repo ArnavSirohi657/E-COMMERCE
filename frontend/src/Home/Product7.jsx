@@ -41,17 +41,17 @@ export default function Product7() {
             }}
           >
             {[
-              "/Kitchen/Card.jpg",
-              "/Kitchen/Fries.jpg",
-              "/Kitchen/Grinder.jpg",
-              "/Kitchen/Grinder2.jpg",
-              "/Kitchen/Grinder3.jpg",
-              "/Kitchen/Grinder4.jpg",
-              "/Kitchen/Kitchen.jpg",
-              "/Kitchen/Knife.jpg",
-              "/Kitchen/Toast.jpg",
-              "/Kitchen/Toast1.jpg",
-              "/Kitchen/Weighing.jpg",
+              "/HomePage/Home77.jpg",
+              "/HomePage/Home78.jpg",
+              "/HomePage/Home79.jpg",
+              "/HomePage/Home80.jpg",
+              "/HomePage/Home81.jpg",
+              "/HomePage/Home82.jpg",
+              "/HomePage/Home83.jpg",
+              "/HomePage/Home84.jpg",
+              "/HomePage/Home85.jpg",
+              "/HomePage/Home86.jpg",
+              "/HomePage/Home87.jpg",
             ].map((src, index) => (
               <div
                 key={index}

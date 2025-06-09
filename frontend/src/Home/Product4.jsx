@@ -37,18 +37,14 @@ export default function Product4() {
             style={{ scrollBehavior: "smooth", scrollbarWidth: "none", msOverflowStyle: "none" }}
           >
             {[
-              "/Audible/Charger.jpg",
-              "/Audible/Cleaner.jpg",
-              "/Audible/earpod.jpg",
-              "/Audible/Echo.jpg",
-              "/Audible/HeadSet.jpg",
-              "/Audible/Jio.jpg",
-              "/Audible/Keyboard.jpg",
-              "/Audible/Keypad.jpg",
-              "/Audible/Pencil.jpg",
-              "/Audible/PhoneCase1.jpg",
-              "/Audible/Portonic.jpg",
-              "/Audible/Tripod.jpg",
+              "/HomePage/Home46.jpg",
+              "/HomePage/Home47.jpg",
+              "/HomePage/Home48.jpg",
+              "/HomePage/Home49.jpg",
+              "/HomePage/Home50.jpg",
+              "/HomePage/Home51.jpg",
+              "/HomePage/Home52.jpg",
+             
             ].map((src, index) => (
               <div
                 key={index}

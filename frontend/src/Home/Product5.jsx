@@ -2,31 +2,31 @@ export default function Product5() {
   const productData = [
     {
       heading: "Up to 60% off | Trending products from Emerging Busi...",
-      image: "/Charger/Charger.jpg",
+      image: "/HomePage/Home53.jpg",
       desc: "Stvin Magnetic Cable Clips for Wire and Cord Management, Office and Home Desk Organizer for…",
       price: "₹299.00",
-      thumbnails: ["/Charger/Charger1.jpg", "/Charger/Charger2.jpg", "/Charger/Charger3.jpg", "/Charger/Charger4.jpg"]
+      thumbnails: ["/HomePage/Home55.jpg", "/HomePage/Home56.jpg", "/HomePage/Home57.jpg", "/HomePage/Home54.jpg"]
     },
     {
       heading: "Starting ₹70,348 | Ride into your next adventure",
-      image: "/Scooty/Scooty.jpg",
+      image: "/HomePage/Home58.jpg",
       desc: "Chetak 3501 by Bajaj Auto High Speed Electric Scooter with charger - Indigo Metallic - Ex-Showro...",
       price: "₹1,34,500",
-      thumbnails: ["/Scooty/Scooty.jpg", "/Scooty/Scooty2.jpg", "/Scooty/Scooty3.jpg", "/Scooty/Scooty4.jpg"]
+      thumbnails: ["/HomePage/Home58.jpg", "/HomePage/Home59.jpg", "/HomePage/Home60.jpg", "/HomePage/Home61.jpg"]
     },
     {
       heading: "Starting ₹229 | Unique home essentials from nearby stores",
-      image: "Statue/Statue.jpg",
+      image: "/HomePage/Home62.jpg",
       desc: "EXPLESIA Rock Carved Buddha face Shower Water Fountain for Home, Indoor Water Fountain Big Size...",
       price: "₹13,299",
-      thumbnails: ["Statue/Statue.jpg", "Statue/Statue2.jpg", "Statue/Statue3.jpg", "Statue/Statue4.jpg"]
+      thumbnails: ["/HomePage/Home62.jpg", "/HomePage/Home63.jpg", "/HomePage/Home64.jpg", "/HomePage/Home65.jpg"]
     },
     {
       heading: "Best Sellers in Beauty",
-      image: "/Soap/Soap.jpg",
+      image: "/HomePage/Home66.jpg",
       desc: "Ghar Soaps Sandalwood & Saffron Magic Soaps For Bath (300 Gms Pack Of 3) | Paraben Free | Chanda...",
       price: "₹395.00",
-      thumbnails: ["/Soap/Soap.jpg", "/Soap/Soap1.jpg", "/Soap/Soap2.jpg", "/Soap/Soap3.jpg"]
+      thumbnails: ["/HomePage/Home66.jpg", "/HomePage/Home67.jpg", "/HomePage/Home68.jpg", "/HomePage/Home69.jpg"]
     },
   ];
 

@@ -2,52 +2,52 @@ export default function Product8() {
     const productData = [
       {
         heading: "Up to 70% off | Curated products from Small Busines…",
-        image: "/Bag/Bag.jpg",
+        image: "/HomePage/Home89.jpg",
         desc: "Pack of 2 Innerwear Organizer Legging Storage Bag Dupatta Organizer Bag, Storage Organizer Pouch",
         price: "₹361.00",
         thumbnails: [
-          "/Bag/Bag.jpg",
-          "/Bag/Bag01.jpg",
-          "/Bag/Bag02.jpg",
-          "/Bag/Bag03.jpg"
+          "/HomePage/Home89.jpg",
+          "/HomePage/Home90.jpg",
+          "/HomePage/Home91.jpg",
+          "/HomePage/Home92.jpg"
         ]
       },
       {
         heading: "Under ₹499 | Bestsellers from Emerging businesses",
-        image: "/Edma/Edma.jpg",
+        image: "/HomePage/Home93.jpg",
         desc: "Green Gainz Roasted Edamame Classic Flavour – 100gm | 100% Veg High Protein Snack | No Added",
         price: "₹199",
         thumbnails: [
-          "/Edma/Edma.jpg",
-          "/Edma/Edma01.jpg",
-          "/Edma/Edma01.jpg",
-          "/Edma/Edma03.jpg"
+          "/HomePage/Home93.jpg",
+          "/HomePage/Home94.jpg",
+          "/HomePage/Home95.jpg",
+          "/HomePage/Home95.jpg"
         ]
       },
       {
         heading: "Best Sellers in Sports, Fitness & Outdoors",
-        image: "/GYM/Fitness.jpg",
+        image: "/HomePage/Home96.jpg",
         desc: "EXPLESIA Rock Carved Buddha face Shower Water Fountain for Home, Indoor Water Fountain Big Size...",
         price: "₹1000",
         thumbnails: [
-            "/GYM/Fitness.jpg",
-            "/GYM/Fitness01.jpg",
-            "/GYM/Fitness03.jpg",
-            "/GYM/Fitness04.jpg"
+            "/HomePage/Home96.jpg",
+            "/HomePage/Home97.jpg",
+            "/HomePage/Home98.jpg",
+            "/HomePage/Home99.jpg"
           ]
        
 
       },
       {
         heading: "Up to 80% off | Handcrafted treasures from artisans",
-        image: "/Dog/Dog.jpg",
+        image: "/HomePage/Home100.jpg",
         desc: "HindCraft Car Dashboard Decoration Items – Aggressive Bulldog Showpiece Figure for Home and",
         price: "₹499.00",
         thumbnails: [
-          "/Dog/Dog.jpg",
-          "/Dog/Dog01.jpg",
-          "/Dog/Dog02.jpg",
-          "/Dog/Dog03.jpg"
+          "/HomePage/Home100.jpg",
+          "/HomePage/Home101.jpg",
+          "/HomePage/Home102.jpg",
+          "/HomePage/Home103.jpg"
         ]
       }
     ];

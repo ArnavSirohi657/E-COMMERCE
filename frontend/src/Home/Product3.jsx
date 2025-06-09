@@ -37,19 +37,19 @@ export default function Product3() {
             style={{ scrollBehavior: "smooth", scrollbarWidth: "none", msOverflowStyle: "none" }}
           >
             {[
-              "/Fashion/HalfJacket1.jpg",
-              "/Fashion/Kurti.jpg",
-              "/Fashion/Shirt01.jpg",
-              "/Fashion/Top.jpg",
-              "/Fashion/Kurti2.jpg",
-              "/Fashion/Shirt02.jpg",
-              "/Fashion/Kurti03.jpg",
-              "/Fashion/Top03.jpg",
-              "/Fashion/Kurti05.jpg",
-              "/Fashion/Shirt03.jpg",
-              "/Fashion/Shirt04.jpg",
-              "/Fashion/Kurti04.jpg",
-              "/Fashion/Kurti06.jpg",
+              "/HomePage/Home33.jpg",
+              "/HomePage/Home34.jpg",
+              "/HomePage/Home35.jpg",
+              "/HomePage/Home36.jpg",
+              "/HomePage/Home37.jpg",
+              "/HomePage/Home38.jpg",
+              "/HomePage/Home39.jpg",
+              "/HomePage/Home40.jpg",
+              "/HomePage/Home41.jpg",
+              "/HomePage/Home42.jpg",
+              "/HomePage/Home43.jpg",
+              "/HomePage/Home44.jpg",
+              "/HomePage/Home45.jpg",
             ].map((src, index) => (
               <div
                 key={index}

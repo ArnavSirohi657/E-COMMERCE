@@ -38,13 +38,13 @@ export default function Product6() {
             style={{ scrollBehavior: "smooth" }}
           >
             {[
-              { src: "/KID/CarToy.webp", alt: "Car Toy" },
-              { src: "/KID/TeenTitian.webp", alt: "Teen Titan" },
-              { src: "/KID/ToyCar.webp", alt: "Toy Car" },
-              { src: "/KID/Swimming.jpeg", alt: "Swimming Toy" },
-              { src: "/KID/DollHouse.webp", alt: "Doll House" },
-              { src: "/KID/SoftToy.jpeg", alt: "Soft Toy" },
-              { src: "/KID/Bike.jpg", alt: "Bike" },
+              { src: "/HomePage/Home70.jpg", alt: "Car Toy" },
+              { src: "/HomePage/Home71.webp", alt: "Teen Titan" },
+              { src: "/HomePage/Home72.webp", alt: "Toy Car" },
+              { src: "/HomePage/Home73.jpeg", alt: "Swimming Toy" },
+              { src: "/HomePage/Home74.jpeg", alt: "Doll House" },
+              { src: "/HomePage/Home75.webp", alt: "Soft Toy" },
+              { src: "/HomePage/Home76.webp", alt: "Bike" },
             ].map((item, index) => (
               <img
                 key={index}
