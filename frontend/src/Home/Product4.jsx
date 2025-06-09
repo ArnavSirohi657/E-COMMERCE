@@ -1,8 +1,10 @@
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
+import axios from "axios";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function Product4() {
   const scrollRef = useRef();
+  const [images, setImages] = useState([]);
 
   const scrollLeft = () => {
     scrollRef.current.scrollBy({ left: -600, behavior: "smooth" });
@@ -11,6 +13,23 @@ export default function Product4() {
   const scrollRight = () => {
     scrollRef.current.scrollBy({ left: 600, behavior: "smooth" });
   };
+
+  useEffect(() => {
+    axios.get("http://localhost:5000/api/products")
+      .then((res) => {
+        // Sort numerically using title (e.g., Home46 → 46)
+        const sorted = res.data.sort((a, b) => {
+          const numA = parseInt(a.title.replace(/\D/g, ""));
+          const numB = parseInt(b.title.replace(/\D/g, ""));
+          return numA - numB;
+        });
+
+        const allImages = sorted.map(p => p.image);
+        const range = allImages.slice(46, 53); // ✅ Load image index 46 to 52
+        setImages(range);
+      })
+      .catch(err => console.error("❌ Error loading Product4 images:", err));
+  }, []);
 
   return (
     <div className="container mt-4 position-relative">
@@ -36,16 +55,7 @@ export default function Product4() {
             className="d-flex overflow-auto gap-3 px-4 pb-2"
             style={{ scrollBehavior: "smooth", scrollbarWidth: "none", msOverflowStyle: "none" }}
           >
-            {[
-              "/HomePage/Home46.jpg",
-              "/HomePage/Home47.jpg",
-              "/HomePage/Home48.jpg",
-              "/HomePage/Home49.jpg",
-              "/HomePage/Home50.jpg",
-              "/HomePage/Home51.jpg",
-              "/HomePage/Home52.jpg",
-             
-            ].map((src, index) => (
+            {images.map((src, index) => (
               <div
                 key={index}
                 className="bg-light border rounded p-2"
@@ -85,7 +95,7 @@ export default function Product4() {
         </div>
       </div>
 
-      {/* Hide scrollbar and apply hover styles */}
+      {/* Scrollbar and hover styles */}
       <style>{`
         .overflow-auto::-webkit-scrollbar {
           display: none;

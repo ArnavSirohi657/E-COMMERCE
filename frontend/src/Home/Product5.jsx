@@ -1,39 +1,60 @@
+import { useEffect, useState } from "react";
+import axios from "axios";
+
 export default function Product5() {
-  const productData = [
-    {
-      heading: "Up to 60% off | Trending products from Emerging Busi...",
-      image: "/HomePage/Home53.jpg",
-      desc: "Stvin Magnetic Cable Clips for Wire and Cord Management, Office and Home Desk Organizer for…",
-      price: "₹299.00",
-      thumbnails: ["/HomePage/Home55.jpg", "/HomePage/Home56.jpg", "/HomePage/Home57.jpg", "/HomePage/Home54.jpg"]
-    },
-    {
-      heading: "Starting ₹70,348 | Ride into your next adventure",
-      image: "/HomePage/Home58.jpg",
-      desc: "Chetak 3501 by Bajaj Auto High Speed Electric Scooter with charger - Indigo Metallic - Ex-Showro...",
-      price: "₹1,34,500",
-      thumbnails: ["/HomePage/Home58.jpg", "/HomePage/Home59.jpg", "/HomePage/Home60.jpg", "/HomePage/Home61.jpg"]
-    },
-    {
-      heading: "Starting ₹229 | Unique home essentials from nearby stores",
-      image: "/HomePage/Home62.jpg",
-      desc: "EXPLESIA Rock Carved Buddha face Shower Water Fountain for Home, Indoor Water Fountain Big Size...",
-      price: "₹13,299",
-      thumbnails: ["/HomePage/Home62.jpg", "/HomePage/Home63.jpg", "/HomePage/Home64.jpg", "/HomePage/Home65.jpg"]
-    },
-    {
-      heading: "Best Sellers in Beauty",
-      image: "/HomePage/Home66.jpg",
-      desc: "Ghar Soaps Sandalwood & Saffron Magic Soaps For Bath (300 Gms Pack Of 3) | Paraben Free | Chanda...",
-      price: "₹395.00",
-      thumbnails: ["/HomePage/Home66.jpg", "/HomePage/Home67.jpg", "/HomePage/Home68.jpg", "/HomePage/Home69.jpg"]
-    },
-  ];
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    axios.get("http://localhost:5000/api/products")
+      .then((res) => {
+        const sorted = res.data.sort((a, b) => {
+          const numA = parseInt(a.title.replace(/\D/g, ""));
+          const numB = parseInt(b.title.replace(/\D/g, ""));
+          return numA - numB;
+        });
+
+        const staticImages = Array.from({ length: 17 }, (_, i) => `/HomePage/Home${53 + i}.jpg`);
+
+        const formatted = [
+          {
+            heading: "Up to 60% off | Trending products from Emerging Busi...",
+            image: staticImages[0], // img 53
+            desc: sorted[0]?.title || "Magnetic Cable Clips",
+            price: "₹299.00",
+            thumbnails: staticImages.slice(0, 4), // img 53–56 (main img included)
+          },
+          {
+            heading: "Starting ₹70,348 | Ride into your next adventure",
+            image: staticImages[5],
+            desc: sorted[6]?.title || "Electric Scooter",
+            price: "₹1,34,500",
+            thumbnails: staticImages.slice(6, 10),
+          },
+          {
+            heading: "Starting ₹229 | Unique home essentials from nearby stores",
+            image: staticImages[10],
+            desc: sorted[11]?.title || "Buddha Fountain",
+            price: "₹13,299",
+            thumbnails: staticImages.slice(11, 15),
+          },
+          {
+            heading: "Best Sellers in Beauty",
+            image: staticImages[15],
+            desc: sorted[16]?.title || "Ghar Soaps Pack",
+            price: "₹395.00",
+            thumbnails: staticImages.slice(16, 17).concat(staticImages.slice(13, 15)),
+          }
+        ];
+
+        setProducts(formatted);
+      })
+      .catch((err) => console.error("❌ Error loading Product5 data:", err));
+  }, []);
 
   return (
     <div className="container my-4">
       <div className="row g-4">
-        {productData.map((product, index) => (
+        {products.map((product, index) => (
           <div key={index} className="col-12 col-md-6 col-lg-3">
             <div className="border p-3 h-100 bg-white shadow-sm d-flex flex-column">
               <h6 className="fw-semibold text-start">{product.heading}</h6>
@@ -50,7 +71,7 @@ export default function Product5() {
                   <img
                     key={i}
                     src={thumb}
-                    alt="Thumbnail"
+                    alt={`Thumbnail ${i}`}
                     className="img-thumbnail hover-thumbnail"
                     style={{
                       width: "45px",
@@ -66,7 +87,7 @@ export default function Product5() {
         ))}
       </div>
 
-      {/* Hover styles */}
+      {/* Hover Styles */}
       <style>{`
         .hover-main-image {
           transition: transform 0.3s ease, box-shadow 0.3s ease;
