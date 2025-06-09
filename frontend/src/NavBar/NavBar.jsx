@@ -4,23 +4,37 @@ import "../CSS/NavBar.css";
 export default function NavBar() {
   return (
     <nav className="custom-navbar bg-dark text-white py-2 shadow-sm sticky-top">
-
-
       <div className="container-fluid px-lg-4 px-2">
-      <div className="d-flex align-items-center justify-content-start gap-3 overflow-auto flex-nowrap">
-
-          <Link className="nav-link text-white" to="/sell">Sell</Link>
-          <Link className="nav-link text-white" to="/bestsellers">Best Sellers</Link>
-          <Link className="nav-link text-white" to="/todaydeal">Today's Deals</Link>
-          <Link className="nav-link text-white" to="/mobiles">Mobiles</Link>
-          <Link className="nav-link text-white" to="/customerservice">Customer Service</Link>
-          <Link className="nav-link text-white" to="/fashion">Fashion</Link>
-          <Link className="nav-link text-white" to="/electronic">Electronics</Link>
-          <Link className="nav-link text-white" to="/homeandkitchen">Home & Kitchen</Link>
-          <Link className="nav-link text-white" to="/carandmotorbike">Car & Motorbike</Link>
-          <Link className="nav-link text-white" to="/computer">Computers</Link>
-          <Link className="nav-link text-white" to="/book">Books</Link>
-          <Link className="nav-link text-white" to="/signin">Sign In</Link>
+        <div
+          className="d-flex align-items-center overflow-auto flex-nowrap"
+          style={{ gap: "1.5rem" }}
+        >
+          {[
+            { path: "/sell", label: "Sell" },
+            { path: "/bestsellers", label: "Best Sellers" },
+            { path: "/todaydeal", label: "Today's Deals" },
+            { path: "/mobiles", label: "Mobiles" },
+            { path: "/customerservice", label: "Customer Service" },
+            { path: "/fashion", label: "Fashion" },
+            { path: "/electronic", label: "Electronics" },
+            { path: "/homeandkitchen", label: "Home & Kitchen" },
+            { path: "/carandmotorbike", label: "Car & Motorbike" },
+            { path: "/computer", label: "Computers" },
+            { path: "/signin", label: "Sign In" },
+          ].map((item, idx) => (
+            <Link
+              key={idx}
+              to={item.path}
+              className="nav-link text-white px-2 py-1"
+              style={{
+                whiteSpace: "nowrap",
+                fontSize: "0.95rem",
+                fontWeight: 500,
+              }}
+            >
+              {item.label}
+            </Link>
+          ))}
         </div>
       </div>
     </nav>

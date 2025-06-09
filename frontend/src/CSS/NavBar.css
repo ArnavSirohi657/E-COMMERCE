@@ -9,9 +9,16 @@
     color: #f0c14b;
     text-decoration: underline;
   }
-  .custom-navbar {
-    border-bottom: 1px solid #ccc; /* Light grey like Amazon */
+
+
+  .custom-navbar::-webkit-scrollbar {
+    display: none; /* hides scrollbar */
   }
-    
+  
+  .custom-navbar {
+    -ms-overflow-style: none;  /* IE/Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
 
   
