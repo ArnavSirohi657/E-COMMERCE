@@ -1,5 +1,4 @@
-
-import {BrowserRouter,Routes,Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./LandingPage/Home";
 import Sell from "./LandingPage/Sell";
 import BestSellers from "./LandingPage/BestSellers";
@@ -16,35 +15,32 @@ import NavBar from "./NavBar/NavBar";
 import Footer from "./Footer/Footer";
 import TopBar from "./NavBar/TopBar";
 import SignIn from "./LandingPage/SignIn";
+import SearchResults from "./SearchResults.jsx";
 
 function App() {
-
-
   return (
-    <>
-    <TopBar/>
     <BrowserRouter>
-    <NavBar/>
-    <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/sell" element={<Sell/>}/>
-      <Route path="/bestsellers" element={<BestSellers/>}/>
-      <Route path="/todaydeal" element={<TodayDeal/>}/>
-      <Route path="/mobiles" element={<Mobiles/>}/>
-      <Route path="/customerservice" element={<CustomerService/>}/>
-      <Route path="/fashion" element={<Fashion/>}/>
-      <Route path="/electronic" element={<Electronic/>}/>
-      <Route path="/homeandkitchen" element={<HomeAndKitchen/>}/>
-      <Route path="/carandmotorbike" element={<CarAndMotorbike/>}/>
-      <Route path="/computer" element={<Computer/>}/>
-      <Route path="/book" element={<Book/>}/>
-      <Route path="/signin" element={<SignIn/>}/>
-
-    </Routes>
+      <TopBar />
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sell" element={<Sell />} />
+        <Route path="/bestsellers" element={<BestSellers />} />
+        <Route path="/todaydeal" element={<TodayDeal />} />
+        <Route path="/mobiles" element={<Mobiles />} />
+        <Route path="/customerservice" element={<CustomerService />} />
+        <Route path="/fashion" element={<Fashion />} />
+        <Route path="/electronic" element={<Electronic />} />
+        <Route path="/homeandkitchen" element={<HomeAndKitchen />} />
+        <Route path="/carandmotorbike" element={<CarAndMotorbike />} />
+        <Route path="/computer" element={<Computer />} />
+        <Route path="/book" element={<Book />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/search" element={<SearchResults />} />
+      </Routes>
+      <Footer />
     </BrowserRouter>
-    <Footer/>
-    </>
-  )
+  );
 }
 
-export default App
+export default App;

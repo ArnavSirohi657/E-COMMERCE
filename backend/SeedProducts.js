@@ -1,76 +1,43 @@
 import mongoose from "mongoose";
-import fs from "fs";
-import path from "path";
 import dotenv from "dotenv";
-import LightProduct from "./model/LightProductModel.js"; // use your lightweight model
+import { faker } from "@faker-js/faker";
+import Product from "./model/ProductModel.js"; 
 
 dotenv.config();
 
-// ✅ Connect to MongoDB (no deprecated options)
-mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log("✅ MongoDB connected"))
-  .catch((err) => console.error("❌ MongoDB connection failed", err));
+const categories = ["electronics", "fashion", "books", "home", "sports"];
 
-// 🔁 Recursively get image files inside "HomePage" folder only
-function getHomePageImages(dir) {
-  let results = [];
-  const list = fs.readdirSync(dir);
+const generateProducts = (count = 100) => {
+  const products = [];
 
-  for (const file of list) {
-    const fullPath = path.join(dir, file);
-    const stat = fs.statSync(fullPath);
+  for (let i = 0; i < count; i++) {
+    const category = faker.helpers.arrayElement(categories);
+    products.push({
+      title: faker.commerce.productName(),
+      description: faker.commerce.productDescription(),
+      price: parseFloat(faker.commerce.price({ min: 100, max: 10000 })),
+      category: category,
+      image: `https://source.unsplash.com/400x400/?${category},${faker.word.sample()}`
 
-    if (stat.isDirectory()) {
-      if (path.basename(fullPath) === "HomePage") {
-        results = results.concat(getImageFilesRecursively(fullPath, fullPath));
-      } else {
-        results = results.concat(getHomePageImages(fullPath));
-      }
-    }
+    });
   }
 
-  return results;
-}
+  return products;
+};
 
-// 🔁 Recursively get images from HomePage
-function getImageFilesRecursively(dir, root = dir) {
-  let results = [];
-  const list = fs.readdirSync(dir);
-
-  for (const file of list) {
-    const fullPath = path.join(dir, file);
-    const stat = fs.statSync(fullPath);
-
-    if (stat.isDirectory()) {
-      results = results.concat(getImageFilesRecursively(fullPath, root));
-    } else if (/\.(jpg|jpeg|png|webp|avif)$/i.test(file)) {
-      const relativePath = path.relative(root, fullPath).replace(/\\/g, "/");
-      results.push("HomePage/" + relativePath);
-    }
-  }
-
-  return results;
-}
-
-async function seedHomePageImages() {
-  const publicDir = path.join(process.cwd(), "../frontend/public");
-
-  console.log("🛣️ Public Dir:", publicDir);
-
-  const imagePaths = getHomePageImages(publicDir);
-  console.log("📂 Found", imagePaths.length, "HomePage images.");
-
-  const products = imagePaths.map((relativePath, index) => ({
-    id: index + 1,
-    image: "/" + relativePath,
-  }));
-
-  await LightProduct.deleteMany(); // clear old
-  await LightProduct.insertMany(products); // insert new
-
-  console.log("✅ Inserted", products.length, "HomePage products");
-
-  mongoose.disconnect();
-}
-
-seedHomePageImages();
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(async () => {
+  console.log("✅ MongoDB Connected");
+  const data = generateProducts(100);
+  await Product.deleteMany(); // optional: clear old data
+  await Product.insertMany(data);
+  console.log("✅ 100 Products Inserted");
+  process.exit();
+})
+.catch((err) => {
+  console.error("❌ DB Connection Failed:", err);
+  process.exit(1);
+});

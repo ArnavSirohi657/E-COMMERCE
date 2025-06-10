@@ -1,0 +1,702 @@
+[
+  {
+    "title": "Fantastic Concrete Ball",
+    "description": "New Gloves model with 76 GB RAM, 368 GB storage, and remorseful features",
+    "price": 274.05,
+    "category": "sports",
+    "image": "/images/products/product1.jpg"
+  },
+  {
+    "title": "Gorgeous Steel Car",
+    "description": "New Shoes model with 73 GB RAM, 328 GB storage, and metallic features",
+    "price": 9889.35,
+    "category": "fashion",
+    "image": "/images/products/product2.jpg"
+  },
+  {
+    "title": "Gorgeous Gold Shoes",
+    "description": "Discover the deer-like agility of our Towels, perfect for honored users",
+    "price": 6980.4,
+    "category": "books",
+    "image": "/images/products/product3.jpg"
+  },
+  {
+    "title": "Handcrafted Marble Chips",
+    "description": "Innovative Shirt featuring outlandish technology and Gold construction",
+    "price": 1140.65,
+    "category": "sports",
+    "image": "/images/products/product4.jpg"
+  },
+  {
+    "title": "Fresh Marble Bacon",
+    "description": "Professional-grade Towels perfect for hairy training and recreational use",
+    "price": 2724.59,
+    "category": "books",
+    "image": "/images/products/product5.jpg"
+  },
+  {
+    "title": "Fresh Metal Chicken",
+    "description": "Discover the rabbit-like agility of our Bike, perfect for delectable users",
+    "price": 5292.89,
+    "category": "electronics",
+    "image": "/images/products/product6.jpg"
+  },
+  {
+    "title": "Elegant Cotton Ball",
+    "description": "Our tangy-inspired Mouse brings a taste of luxury to your funny lifestyle",
+    "price": 2113.69,
+    "category": "home",
+    "image": "/images/products/product7.jpg"
+  },
+  {
+    "title": "Licensed Wooden Shirt",
+    "description": "Innovative Sausages featuring burly technology and Cotton construction",
+    "price": 8423.19,
+    "category": "books",
+    "image": "/images/products/product8.jpg"
+  },
+  {
+    "title": "Luxurious Steel Bacon",
+    "description": "Our parrot-friendly Ball ensures elastic comfort for your pets",
+    "price": 5531.39,
+    "category": "fashion",
+    "image": "/images/products/product9.jpg"
+  },
+  {
+    "title": "Bespoke Steel Soap",
+    "description": "Savor the tangy essence in our Shirt, designed for immense culinary adventures",
+    "price": 5269.89,
+    "category": "fashion",
+    "image": "/images/products/product10.jpg"
+  },
+  {
+    "title": "Recycled Gold Keyboard",
+    "description": "The Thad Pizza is the latest in a series of bogus products from Nikolaus Group",
+    "price": 3591.69,
+    "category": "electronics",
+    "image": "/images/products/product11.jpg"
+  },
+  {
+    "title": "Handcrafted Ceramic Tuna",
+    "description": "Experience the turquoise brilliance of our Mouse, perfect for pertinent environments",
+    "price": 2062.35,
+    "category": "electronics",
+    "image": "/images/products/product12.jpg"
+  },
+  {
+    "title": "Modern Granite Keyboard",
+    "description": "Innovative Gloves featuring arid technology and Rubber construction",
+    "price": 5365.39,
+    "category": "sports",
+    "image": "/images/products/product13.jpg"
+  },
+  {
+    "title": "Gorgeous Bronze Gloves",
+    "description": "New Pants model with 95 GB RAM, 591 GB storage, and untried features",
+    "price": 2770.69,
+    "category": "sports",
+    "image": "/images/products/product14.jpg"
+  },
+  {
+    "title": "Modern Wooden Shoes",
+    "description": "Professional-grade Cheese perfect for grown training and recreational use",
+    "price": 5739.59,
+    "category": "electronics",
+    "image": "/images/products/product15.jpg"
+  },
+  {
+    "title": "Elegant Plastic Towels",
+    "description": "Schinner, Raynor and Raynor's most advanced Fish technology increases deadly capabilities",
+    "price": 6107.17,
+    "category": "electronics",
+    "image": "/images/products/product16.jpg"
+  },
+  {
+    "title": "Frozen Bamboo Fish",
+    "description": "New fuchsia Chips with ergonomic design for honored comfort",
+    "price": 7019,
+    "category": "books",
+    "image": "/images/products/product17.jpg"
+  },
+  {
+    "title": "Intelligent Steel Shoes",
+    "description": "Discover the frog-like agility of our Shirt, perfect for squiggly users",
+    "price": 6466.99,
+    "category": "home",
+    "image": "/images/products/product18.jpg"
+  },
+  {
+    "title": "Ergonomic Marble Ball",
+    "description": "Ergonomic Computer made with Bamboo for all-day blond support",
+    "price": 1929.4,
+    "category": "electronics",
+    "image": "/images/products/product19.jpg"
+  },
+  {
+    "title": "Small Marble Towels",
+    "description": "The orange Gloves combines Burkina Faso aesthetics with Chlorine-based durability",
+    "price": 809.25,
+    "category": "home",
+    "image": "/images/products/product20.jpg"
+  },
+  {
+    "title": "Handmade Bamboo Table",
+    "description": "Discover the chilly new Cheese with an exciting mix of Metal ingredients",
+    "price": 8469.99,
+    "category": "electronics",
+    "image": "/images/products/product21.jpg"
+  },
+  {
+    "title": "Intelligent Bamboo Bike",
+    "description": "Introducing the Congo-inspired Chicken, blending kooky style with local craftsmanship",
+    "price": 9776.15,
+    "category": "fashion",
+    "image": "/images/products/product22.jpg"
+  },
+  {
+    "title": "Ergonomic Aluminum Chips",
+    "description": "Our crispy-inspired Salad brings a taste of luxury to your sure-footed lifestyle",
+    "price": 9063.85,
+    "category": "electronics",
+    "image": "/images/products/product23.jpg"
+  },
+  {
+    "title": "Unbranded Bamboo Shoes",
+    "description": "Featuring Einsteinium-enhanced technology, our Chips offers unparalleled worse performance",
+    "price": 5646.99,
+    "category": "home",
+    "image": "/images/products/product24.jpg"
+  },
+  {
+    "title": "Incredible Gold Chair",
+    "description": "Our whale-friendly Ball ensures sociable comfort for your pets",
+    "price": 544.4,
+    "category": "fashion",
+    "image": "/images/products/product25.jpg"
+  },
+  {
+    "title": "Modern Metal Computer",
+    "description": "Savor the golden essence in our Shirt, designed for cultivated culinary adventures",
+    "price": 8570.89,
+    "category": "fashion",
+    "image": "/images/products/product26.jpg"
+  },
+  {
+    "title": "Elegant Aluminum Shoes",
+    "description": "New Hat model with 8 GB RAM, 81 GB storage, and unsung features",
+    "price": 8913.35,
+    "category": "home",
+    "image": "/images/products/product27.jpg"
+  },
+  {
+    "title": "Tasty Rubber Shoes",
+    "description": "The sleek and idolized Fish comes with mint green LED lighting for smart functionality",
+    "price": 7551.65,
+    "category": "electronics",
+    "image": "/images/products/product28.jpg"
+  },
+  {
+    "title": "Luxurious Metal Sausages",
+    "description": "Professional-grade Chair perfect for gripping training and recreational use",
+    "price": 2458.39,
+    "category": "home",
+    "image": "/images/products/product29.jpg"
+  },
+  {
+    "title": "Handcrafted Concrete Bike",
+    "description": "The orange Table combines Barbados aesthetics with Silicon-based durability",
+    "price": 5391.95,
+    "category": "books",
+    "image": "/images/products/product30.jpg"
+  },
+  {
+    "title": "Ergonomic Silk Salad",
+    "description": "New Shirt model with 80 GB RAM, 287 GB storage, and necessary features",
+    "price": 4728.09,
+    "category": "electronics",
+    "image": "/images/products/product31.jpg"
+  },
+  {
+    "title": "Awesome Bronze Pants",
+    "description": "The Brooklyn Fish is the latest in a series of witty products from Koss and Sons",
+    "price": 1556.75,
+    "category": "home",
+    "image": "/images/products/product32.jpg"
+  },
+  {
+    "title": "Generic Gold Bike",
+    "description": "Experience the red brilliance of our Computer, perfect for pitiful environments",
+    "price": 318.99,
+    "category": "electronics",
+    "image": "/images/products/product33.jpg"
+  },
+  {
+    "title": "Intelligent Ceramic Shoes",
+    "description": "Our hamster-friendly Chips ensures elliptical comfort for your pets",
+    "price": 9655.55,
+    "category": "fashion",
+    "image": "/images/products/product34.jpg"
+  },
+  {
+    "title": "Rustic Steel Salad",
+    "description": "Professional-grade Chicken perfect for affectionate training and recreational use",
+    "price": 9215.29,
+    "category": "sports",
+    "image": "/images/products/product35.jpg"
+  },
+  {
+    "title": "Ergonomic Ceramic Ball",
+    "description": "Professional-grade Computer perfect for lonely training and recreational use",
+    "price": 8586.99,
+    "category": "books",
+    "image": "/images/products/product36.jpg"
+  },
+  {
+    "title": "Sleek Bamboo Cheese",
+    "description": "Featuring Fermium-enhanced technology, our Keyboard offers unparalleled content performance",
+    "price": 9273,
+    "category": "fashion",
+    "image": "/images/products/product37.jpg"
+  },
+  {
+    "title": "Oriental Silk Chicken",
+    "description": "Experience the grey brilliance of our Mouse, perfect for big environments",
+    "price": 2715.45,
+    "category": "electronics",
+    "image": "/images/products/product38.jpg"
+  },
+  {
+    "title": "Electronic Ceramic Pizza",
+    "description": "Introducing the China-inspired Pants, blending astonishing style with local craftsmanship",
+    "price": 3489.25,
+    "category": "fashion",
+    "image": "/images/products/product39.jpg"
+  },
+  {
+    "title": "Modern Marble Bike",
+    "description": "The sleek and slushy Sausages comes with orange LED lighting for smart functionality",
+    "price": 7426.4,
+    "category": "books",
+    "image": "/images/products/product40.jpg"
+  },
+  {
+    "title": "Sleek Silk Hat",
+    "description": "Ergonomic Shirt made with Wooden for all-day oval support",
+    "price": 2082.19,
+    "category": "fashion",
+    "image": "/images/products/product41.jpg"
+  },
+  {
+    "title": "Awesome Bronze Pizza",
+    "description": "The Profound eco-centric structure Table offers reliable performance and selfish design",
+    "price": 5562.5,
+    "category": "books",
+    "image": "/images/products/product42.jpg"
+  },
+  {
+    "title": "Handcrafted Bamboo Table",
+    "description": "Our kangaroo-friendly Chips ensures scared comfort for your pets",
+    "price": 5067.15,
+    "category": "books",
+    "image": "/images/products/product43.jpg"
+  },
+  {
+    "title": "Tasty Wooden Mouse",
+    "description": "Our crispy-inspired Fish brings a taste of luxury to your hasty lifestyle",
+    "price": 1128,
+    "category": "books",
+    "image": "/images/products/product44.jpg"
+  },
+  {
+    "title": "Luxurious Silk Pants",
+    "description": "Bespoke Shoes designed with Rubber for downright performance",
+    "price": 2633.99,
+    "category": "books",
+    "image": "/images/products/product45.jpg"
+  },
+  {
+    "title": "Intelligent Concrete Table",
+    "description": "Stylish Pants designed to make you stand out with stupendous looks",
+    "price": 7792.15,
+    "category": "fashion",
+    "image": "/images/products/product46.jpg"
+  },
+  {
+    "title": "Frozen Aluminum Mouse",
+    "description": "Savor the delicious essence in our Table, designed for silver culinary adventures",
+    "price": 5243.59,
+    "category": "home",
+    "image": "/images/products/product47.jpg"
+  },
+  {
+    "title": "Fresh Bronze Pizza",
+    "description": "Introducing the Lebanon-inspired Ball, blending interesting style with local craftsmanship",
+    "price": 1204.5,
+    "category": "electronics",
+    "image": "/images/products/product48.jpg"
+  },
+  {
+    "title": "Refined Gold Bike",
+    "description": "Discover the cooperative new Chips with an exciting mix of Wooden ingredients",
+    "price": 5178.3,
+    "category": "sports",
+    "image": "/images/products/product49.jpg"
+  },
+  {
+    "title": "Frozen Gold Pizza",
+    "description": "The sleek and grumpy Table comes with purple LED lighting for smart functionality",
+    "price": 5161.99,
+    "category": "books",
+    "image": "/images/products/product50.jpg"
+  },
+  {
+    "title": "Intelligent Rubber Chips",
+    "description": "Savor the crunchy essence in our Bike, designed for lively culinary adventures",
+    "price": 5520.35,
+    "category": "home",
+    "image": "/images/products/product51.jpg"
+  },
+  {
+    "title": "Bespoke Silk Ball",
+    "description": "Our gecko-friendly Gloves ensures bleak comfort for your pets",
+    "price": 7557.19,
+    "category": "electronics",
+    "image": "/images/products/product52.jpg"
+  },
+  {
+    "title": "Incredible Granite Chips",
+    "description": "Our snake-friendly Ball ensures standard comfort for your pets",
+    "price": 9590.49,
+    "category": "fashion",
+    "image": "/images/products/product53.jpg"
+  },
+  {
+    "title": "Gorgeous Silk Shoes",
+    "description": "Our rabbit-friendly Computer ensures vivid comfort for your pets",
+    "price": 9732.29,
+    "category": "fashion",
+    "image": "/images/products/product54.jpg"
+  },
+  {
+    "title": "Generic Marble Sausages",
+    "description": "The sleek and creative Cheese comes with cyan LED lighting for smart functionality",
+    "price": 7704.25,
+    "category": "electronics",
+    "image": "/images/products/product55.jpg"
+  },
+  {
+    "title": "Unbranded Cotton Computer",
+    "description": "New Fish model with 53 GB RAM, 947 GB storage, and known features",
+    "price": 4483.3,
+    "category": "sports",
+    "image": "/images/products/product56.jpg"
+  },
+  {
+    "title": "Bespoke Aluminum Shoes",
+    "description": "The sleek and frozen Gloves comes with gold LED lighting for smart functionality",
+    "price": 4572.19,
+    "category": "sports",
+    "image": "/images/products/product57.jpg"
+  },
+  {
+    "title": "Electronic Wooden Shoes",
+    "description": "New violet Chicken with ergonomic design for meager comfort",
+    "price": 980.7,
+    "category": "books",
+    "image": "/images/products/product58.jpg"
+  },
+  {
+    "title": "Fresh Concrete Computer",
+    "description": "New Bacon model with 83 GB RAM, 363 GB storage, and fantastic features",
+    "price": 6291.89,
+    "category": "sports",
+    "image": "/images/products/product59.jpg"
+  },
+  {
+    "title": "Modern Bronze Gloves",
+    "description": "Experience the magenta brilliance of our Computer, perfect for crafty environments",
+    "price": 736.45,
+    "category": "sports",
+    "image": "/images/products/product60.jpg"
+  },
+  {
+    "title": "Incredible Steel Shirt",
+    "description": "Introducing the Belize-inspired Chicken, blending round style with local craftsmanship",
+    "price": 4049.45,
+    "category": "home",
+    "image": "/images/products/product61.jpg"
+  },
+  {
+    "title": "Awesome Bamboo Table",
+    "description": "Experience the sky blue brilliance of our Sausages, perfect for happy-go-lucky environments",
+    "price": 1042.05,
+    "category": "fashion",
+    "image": "/images/products/product62.jpg"
+  },
+  {
+    "title": "Rustic Bronze Mouse",
+    "description": "Our delicious-inspired Chair brings a taste of luxury to your mammoth lifestyle",
+    "price": 4322.89,
+    "category": "sports",
+    "image": "/images/products/product63.jpg"
+  },
+  {
+    "title": "Small Silk Ball",
+    "description": "The Krystal Hat is the latest in a series of mysterious products from Schoen, Johnston and Lehner",
+    "price": 3698.49,
+    "category": "home",
+    "image": "/images/products/product64.jpg"
+  },
+  {
+    "title": "Fresh Plastic Chicken",
+    "description": "Discover the plump new Computer with an exciting mix of Plastic ingredients",
+    "price": 3750.59,
+    "category": "electronics",
+    "image": "/images/products/product65.jpg"
+  },
+  {
+    "title": "Awesome Ceramic Sausages",
+    "description": "Innovative Chicken featuring majestic technology and Rubber construction",
+    "price": 9165.49,
+    "category": "fashion",
+    "image": "/images/products/product66.jpg"
+  },
+  {
+    "title": "Handcrafted Aluminum Soap",
+    "description": "Experience the azure brilliance of our Bacon, perfect for untried environments",
+    "price": 1983.48,
+    "category": "books",
+    "image": "/images/products/product67.jpg"
+  },
+  {
+    "title": "Oriental Ceramic Computer",
+    "description": "Innovative Tuna featuring pretty technology and Marble construction",
+    "price": 1240.39,
+    "category": "books",
+    "image": "/images/products/product68.jpg"
+  },
+  {
+    "title": "Modern Aluminum Soap",
+    "description": "New Bacon model with 37 GB RAM, 884 GB storage, and self-reliant features",
+    "price": 639.79,
+    "category": "sports",
+    "image": "/images/products/product69.jpg"
+  },
+  {
+    "title": "Awesome Concrete Chair",
+    "description": "Innovative Bike featuring basic technology and Bronze construction",
+    "price": 8040.69,
+    "category": "sports",
+    "image": "/images/products/product70.jpg"
+  },
+  {
+    "title": "Handmade Aluminum Chicken",
+    "description": "New olive Pants with ergonomic design for discrete comfort",
+    "price": 2985.25,
+    "category": "sports",
+    "image": "/images/products/product71.jpg"
+  },
+  {
+    "title": "Rustic Concrete Bacon",
+    "description": "Professional-grade Chips perfect for messy training and recreational use",
+    "price": 2620.49,
+    "category": "sports",
+    "image": "/images/products/product72.jpg"
+  },
+  {
+    "title": "Incredible Granite Hat",
+    "description": "The orange Pants combines Honduras aesthetics with Europium-based durability",
+    "price": 9963.32,
+    "category": "electronics",
+    "image": "/images/products/product73.jpg"
+  },
+  {
+    "title": "Handmade Ceramic Chips",
+    "description": "The Tiara Cheese is the latest in a series of warmhearted products from Hermann, Fritsch and Jones",
+    "price": 1402.79,
+    "category": "electronics",
+    "image": "/images/products/product74.jpg"
+  },
+  {
+    "title": "Soft Concrete Salad",
+    "description": "Discover the crocodile-like agility of our Chicken, perfect for urban users",
+    "price": 7410.75,
+    "category": "books",
+    "image": "/images/products/product75.jpg"
+  },
+  {
+    "title": "Ergonomic Silk Mouse",
+    "description": "Our penguin-friendly Bacon ensures tinted comfort for your pets",
+    "price": 9679.55,
+    "category": "fashion",
+    "image": "/images/products/product76.jpg"
+  },
+  {
+    "title": "Electronic Bronze Ball",
+    "description": "Experience the lavender brilliance of our Cheese, perfect for dark environments",
+    "price": 8841.19,
+    "category": "sports",
+    "image": "/images/products/product77.jpg"
+  },
+  {
+    "title": "Frozen Plastic Towels",
+    "description": "Innovative Mouse featuring writhing technology and Metal construction",
+    "price": 578.59,
+    "category": "fashion",
+    "image": "/images/products/product78.jpg"
+  },
+  {
+    "title": "Electronic Ceramic Tuna",
+    "description": "Professional-grade Mouse perfect for intrepid training and recreational use",
+    "price": 8049.79,
+    "category": "electronics",
+    "image": "/images/products/product79.jpg"
+  },
+  {
+    "title": "Handmade Wooden Keyboard",
+    "description": "Stroman, Legros and Flatley's most advanced Keyboard technology increases numb capabilities",
+    "price": 2807.95,
+    "category": "fashion",
+    "image": "/images/products/product80.jpg"
+  },
+  {
+    "title": "Fresh Concrete Fish",
+    "description": "Our whale-friendly Keyboard ensures jagged comfort for your pets",
+    "price": 4872.65,
+    "category": "home",
+    "image": "/images/products/product81.jpg"
+  },
+  {
+    "title": "Tasty Ceramic Towels",
+    "description": "The Terrance Chair is the latest in a series of elliptical products from Kohler, Heathcote and Bode",
+    "price": 504.19,
+    "category": "fashion",
+    "image": "/images/products/product82.jpg"
+  },
+  {
+    "title": "Tasty Granite Hat",
+    "description": "Ergonomic Ball made with Plastic for all-day sore support",
+    "price": 952.69,
+    "category": "electronics",
+    "image": "/images/products/product83.jpg"
+  },
+  {
+    "title": "Generic Cotton Computer",
+    "description": "Featuring Promethium-enhanced technology, our Computer offers unparalleled sociable performance",
+    "price": 9022.99,
+    "category": "fashion",
+    "image": "/images/products/product84.jpg"
+  },
+  {
+    "title": "Unbranded Granite Car",
+    "description": "Innovative Table featuring ample technology and Cotton construction",
+    "price": 1102.49,
+    "category": "electronics",
+    "image": "/images/products/product85.jpg"
+  },
+  {
+    "title": "Awesome Marble Pizza",
+    "description": "The Claire Shirt is the latest in a series of trivial products from Ziemann - Parisian",
+    "price": 4416.8,
+    "category": "sports",
+    "image": "/images/products/product86.jpg"
+  },
+  {
+    "title": "Rustic Steel Bike",
+    "description": "Fantastic Cheese designed with Ceramic for dapper performance",
+    "price": 9676.05,
+    "category": "electronics",
+    "image": "/images/products/product87.jpg"
+  },
+  {
+    "title": "Oriental Granite Soap",
+    "description": "Introducing the Switzerland-inspired Soap, blending legal style with local craftsmanship",
+    "price": 3430.39,
+    "category": "home",
+    "image": "/images/products/product88.jpg"
+  },
+  {
+    "title": "Recycled Aluminum Pizza",
+    "description": "The Leon Cheese is the latest in a series of whispered products from Bergstrom - Hegmann",
+    "price": 7207.5,
+    "category": "fashion",
+    "image": "/images/products/product89.jpg"
+  },
+  {
+    "title": "Small Granite Chicken",
+    "description": "Our kangaroo-friendly Chair ensures mushy comfort for your pets",
+    "price": 3987.19,
+    "category": "sports",
+    "image": "/images/products/product90.jpg"
+  },
+  {
+    "title": "Tasty Rubber Mouse",
+    "description": "Ergonomic Salad made with Gold for all-day lean support",
+    "price": 4087.05,
+    "category": "books",
+    "image": "/images/products/product91.jpg"
+  },
+  {
+    "title": "Licensed Metal Shoes",
+    "description": "The sleek and excellent Keyboard comes with pink LED lighting for smart functionality",
+    "price": 5783.99,
+    "category": "sports",
+    "image": "/images/products/product92.jpg"
+  },
+  {
+    "title": "Tasty Granite Table",
+    "description": "Vandervort, Huels and Konopelski's most advanced Mouse technology increases outstanding capabilities",
+    "price": 4181.79,
+    "category": "electronics",
+    "image": "/images/products/product93.jpg"
+  },
+  {
+    "title": "Sleek Granite Soap",
+    "description": "Introducing the New Caledonia-inspired Bacon, blending agile style with local craftsmanship",
+    "price": 2712.39,
+    "category": "fashion",
+    "image": "/images/products/product94.jpg"
+  },
+  {
+    "title": "Fantastic Granite Salad",
+    "description": "The sleek and tired Chips comes with plum LED lighting for smart functionality",
+    "price": 1175.49,
+    "category": "books",
+    "image": "/images/products/product95.jpg"
+  },
+  {
+    "title": "Handcrafted Plastic Gloves",
+    "description": "Experience the red brilliance of our Chips, perfect for substantial environments",
+    "price": 9196.31,
+    "category": "books",
+    "image": "/images/products/product96.jpg"
+  },
+  {
+    "title": "Modern Concrete Chips",
+    "description": "Experience the grey brilliance of our Chips, perfect for ironclad environments",
+    "price": 4209.89,
+    "category": "home",
+    "image": "/images/products/product97.jpg"
+  },
+  {
+    "title": "Modern Metal Gloves",
+    "description": "New black Pizza with ergonomic design for realistic comfort",
+    "price": 9633.89,
+    "category": "sports",
+    "image": "/images/products/product98.jpg"
+  },
+  {
+    "title": "Unbranded Bamboo Keyboard",
+    "description": "The Helmer Mouse is the latest in a series of cluttered products from Muller and Sons",
+    "price": 4685.8,
+    "category": "books",
+    "image": "/images/products/product99.jpg"
+  },
+  {
+    "title": "Generic Wooden Shirt",
+    "description": "The yellow Computer combines Switzerland aesthetics with Thorium-based durability",
+    "price": 9751.99,
+    "category": "home",
+    "image": "/images/products/product100.jpg"
+  }
+]
