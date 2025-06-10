@@ -1,10 +1,8 @@
-import { useRef, useEffect, useState } from "react";
-import axios from "axios";
+import { useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function Product3() {
   const scrollRef = useRef();
-  const [images, setImages] = useState([]);
 
   const scrollLeft = () => {
     scrollRef.current.scrollBy({ left: -600, behavior: "smooth" });
@@ -13,23 +11,6 @@ export default function Product3() {
   const scrollRight = () => {
     scrollRef.current.scrollBy({ left: 600, behavior: "smooth" });
   };
-
-  useEffect(() => {
-    axios.get("http://localhost:5000/api/products")
-      .then((res) => {
-        const sorted = res.data.sort((a, b) => {
-          const numA = parseInt(a.title.replace(/\D/g, ""));
-          const numB = parseInt(b.title.replace(/\D/g, ""));
-          return numA - numB;
-        });
-
-        // ✅ Load images 32 to 45 (index 32 to 45 → 14 images)
-        const allImages = sorted.map(p => p.image);
-        const range = allImages.slice(32, 46); // 32 to 45 inclusive
-        setImages(range);
-      })
-      .catch(err => console.error("❌ Error loading images:", err));
-  }, []);
 
   return (
     <div className="container mt-4 position-relative">
@@ -55,7 +36,21 @@ export default function Product3() {
             className="d-flex overflow-auto gap-3 px-4 pb-2"
             style={{ scrollBehavior: "smooth", scrollbarWidth: "none", msOverflowStyle: "none" }}
           >
-            {images.map((src, index) => (
+            {[
+              "/HomePage/Home33.jpg",
+              "/HomePage/Home34.jpg",
+              "/HomePage/Home35.jpg",
+              "/HomePage/Home36.jpg",
+              "/HomePage/Home37.jpg",
+              "/HomePage/Home38.jpg",
+              "/HomePage/Home39.jpg",
+              "/HomePage/Home40.jpg",
+              "/HomePage/Home41.jpg",
+              "/HomePage/Home42.jpg",
+              "/HomePage/Home43.jpg",
+              "/HomePage/Home44.jpg",
+              "/HomePage/Home45.jpg",
+            ].map((src, index) => (
               <div
                 key={index}
                 className="bg-light border rounded p-2"

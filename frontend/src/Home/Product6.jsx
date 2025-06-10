@@ -1,10 +1,8 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import axios from "axios";
 
 export default function Product6() {
   const scrollRef = useRef();
-  const [products, setProducts] = useState([]);
 
   const scrollLeft = () => {
     scrollRef.current.scrollBy({ left: -300, behavior: "smooth" });
@@ -13,22 +11,6 @@ export default function Product6() {
   const scrollRight = () => {
     scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
   };
-
-  useEffect(() => {
-    axios.get("http://localhost:5000/api/products")
-      .then(res => {
-        const sorted = res.data.sort((a, b) => {
-          const numA = parseInt(a.title.replace(/\D/g, ""));
-          const numB = parseInt(b.title.replace(/\D/g, ""));
-          return numA - numB;
-        });
-
-        // Select images Home70.jpg to Home76.jpg → 7 items
-        const selected = sorted.slice(69, 76); // Adjust based on index (starts at 0)
-        setProducts(selected);
-      })
-      .catch(err => console.error("❌ Error loading Product6 data:", err));
-  }, []);
 
   return (
     <div className="container mt-4 position-relative">
@@ -55,18 +37,21 @@ export default function Product6() {
             ref={scrollRef}
             style={{ scrollBehavior: "smooth" }}
           >
-            {products.map((item, index) => (
+            {[
+              { src: "/HomePage/Home70.jpg", alt: "Car Toy" },
+              { src: "/HomePage/Home71.webp", alt: "Teen Titan" },
+              { src: "/HomePage/Home72.webp", alt: "Toy Car" },
+              { src: "/HomePage/Home73.jpeg", alt: "Swimming Toy" },
+              { src: "/HomePage/Home74.jpeg", alt: "Doll House" },
+              { src: "/HomePage/Home75.webp", alt: "Soft Toy" },
+              { src: "/HomePage/Home76.webp", alt: "Bike" },
+            ].map((item, index) => (
               <img
                 key={index}
-                src={item.image}
-                alt={item.title}
+                src={item.src}
+                alt={item.alt}
                 className="img-fluid rounded toy-hover"
-                style={{
-                  width: "150px",
-                  height: "150px",
-                  objectFit: "cover",
-                  flexShrink: 0
-                }}
+                style={{ width: "150px", height: "150px", objectFit: "cover" }}
               />
             ))}
           </div>
@@ -81,19 +66,6 @@ export default function Product6() {
           </button>
         </div>
       </div>
-
-      {/* Optional Hover Style */}
-      <style>{`
-        .toy-hover {
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .toy-hover:hover {
-          transform: scale(1.05);
-          box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-          cursor: pointer;
-        }
-      `}</style>
     </div>
   );
 }
