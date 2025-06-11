@@ -1,0 +1,59 @@
+/* DeliveryInfo.css */
+.amazon-delivery-container {
+    background-color: #f8f9fa;
+    border-color: #ddd !important;
+  }
+  
+  .amazon-pincode-input {
+    max-width: 120px;
+    border-radius: 4px !important;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+  }
+  
+  .amazon-pincode-btn {
+    background-color: #f0f2f2;
+    border: 1px solid #adb1b8;
+    border-radius: 4px;
+    padding: 5px 15px;
+  }
+  
+  .amazon-pincode-btn:hover {
+    background-color: #e7e9ec;
+  }
+  
+  /* ProductDetail.css */
+  .amazon-product-detail {
+    background-color: white;
+    border-radius: 4px;
+  }
+  
+  .main-product-image {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .btn-amazon-yellow {
+    background-color: #FFD814;
+    border-color: #FCD200;
+  }
+  
+  .btn-amazon-orange {
+    background-color: #FFA41C;
+    border-color: #FF8F00;
+  }
+  
+  .btn-amazon-yellow:hover, .btn-amazon-orange:hover {
+    filter: brightness(0.95);
+  }
+  
+  .product-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #0F1111;
+  }
+  
+  .img-thumbnail.active {
+    border-color: #e77600 !important;
+    box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+  }

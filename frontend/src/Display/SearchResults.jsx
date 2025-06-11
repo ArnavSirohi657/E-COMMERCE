@@ -1,7 +1,7 @@
 import { useLocation, Link } from "react-router-dom";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import "../CSS/SearchResult.css"; // Add styling here
+import "../CSS/SearchResult.css";
 
 export default function SearchResults() {
   const [results, setResults] = useState([]);
@@ -15,31 +15,103 @@ export default function SearchResults() {
       .catch((err) => console.error(err));
   }, [query]);
 
+  // Helper function to calculate discount percentage
+  const calculateDiscount = (originalPrice, currentPrice) => {
+    const discount = Math.round(((originalPrice - currentPrice) / originalPrice) * 100);
+    return discount > 0 ? discount : null;
+  };
+
   return (
-    <div className="container py-4">
-      <h5 className="mb-3">Search Results for "<strong>{query}</strong>"</h5>
-      <div className="search-grid">
+    <div className="amazon-search-container">
+      <div className="search-results-header">
+        <h2 className="search-results-title">Results for "{query}"</h2>
+        <p className="results-count">{results.length} results</p>
+      </div>
+      
+      <div className="amazon-product-grid">
         {results.length === 0 ? (
-          <p>No products found.</p>
+          <div className="no-results-container">
+            <p className="no-results">No products found matching your search.</p>
+            <button className="keep-shopping-btn">Keep Shopping</button>
+          </div>
         ) : (
-          results.map((product) => (
-            <Link
-              to={`/product/${product._id}`}
-              className="search-card"
-              key={product._id}
-            >
-              <img
-                src={product.image}
-                alt={product.title}
-                className="search-card-img"
-              />
-              <div className="search-card-body">
-                <h6 className="search-card-title">{product.title}</h6>
-                <p className="search-card-price">₹{product.price.toLocaleString()}</p>
-                <p className="search-card-rating">⭐ {product.rating || 4.2}</p>
+          results.map((product) => {
+            const discount = calculateDiscount(product.originalPrice || product.price * 1.2, product.price);
+            
+            return (
+              <div className="amazon-product-card" key={product._id}>
+                <Link to={`/product/${product._id}`} className="product-link">
+                  <div className="product-image-container">
+                    <img
+                      src={product.image}
+                      alt={product.title}
+                      className="product-image"
+                      onError={(e) => {
+                        e.target.src = 'https://via.placeholder.com/300x300?text=No+Image';
+                      }}
+                    />
+                    {discount && (
+                      <div className="discount-badge">
+                        {discount}% off
+                      </div>
+                    )}
+                    <div className="prime-badge">
+                      <span className="prime-icon">✓</span> Prime
+                    </div>
+                  </div>
+                  <div className="product-details">
+                    <h3 className="product-title">{product.title}</h3>
+                    
+                    <div className="price-section">
+                      <span className="current-price">₹{product.price.toLocaleString()}</span>
+                      {product.originalPrice && (
+                        <span className="original-price">₹{product.originalPrice.toLocaleString()}</span>
+                      )}
+                    </div>
+                    
+                    {discount && (
+                      <div className="coupon-section">
+                        <span className="coupon-badge">Save ₹{(product.originalPrice - product.price).toLocaleString()}</span>
+                        <span className="coupon-text">with coupon</span>
+                      </div>
+                    )}
+                    
+                    <div className="delivery-info">
+                      <span className="delivery-text">FREE delivery</span>
+                      <span className="delivery-date">Wed, Jul 12</span>
+                    </div>
+                    
+                    <div className="product-rating">
+                      <div className="stars">
+                        {[...Array(5)].map((_, i) => (
+                          <span key={i} className={`star ${i < Math.floor(product.rating || 4.2) ? 'filled' : ''}`}>
+                            {i < Math.floor(product.rating || 4.2) ? '★' : '☆'}
+                          </span>
+                        ))}
+                      </div>
+                      <span className="rating-count">{Math.floor(Math.random() * 1000)}</span>
+                    </div>
+                    
+                    {product.isBestSeller && (
+                      <div className="best-seller-badge">
+                        <span>#1 Best Seller</span>
+                      </div>
+                    )}
+                    
+                    <div className="stock-status">
+                      {product.inStock ? (
+                        <span className="in-stock">In Stock</span>
+                      ) : (
+                        <span className="out-of-stock">In stock</span>
+                      )}
+                    </div>
+                  </div>
+                </Link>
+                <button className="add-to-cart-btn">Add to Cart</button>
+                <button className="buy-now-btn">Buy Now</button>
               </div>
-            </Link>
-          ))
+            );
+          })
         )}
       </div>
     </div>
