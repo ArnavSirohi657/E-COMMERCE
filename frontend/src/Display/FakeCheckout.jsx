@@ -1,23 +1,34 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import axios from "../utils/axiosInstance"; // adjust path if needed
+import axios from "../utils/axiosInstance";
 
-axios.get(`/api/products`)
-  .then((res) => {
-    // your logic
-  })
-  .catch((err) => {
-    console.error(err);
-  });
 export default function FakeCheckout() {
   const { orderId, amount } = useParams();
   const [paid, setPaid] = useState(false);
   const [timer, setTimer] = useState(12 * 60);
-
   const [accountName, setAccountName] = useState("");
   const [accountNumber, setAccountNumber] = useState("");
   const [ifscCode, setIfscCode] = useState("");
+  const [products, setProducts] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
+  // Safe API call that only runs in browser
+  useEffect(() => {
+    // Skip during SSR/build time
+    if (typeof window === "undefined") return;
+
+    setIsLoading(true);
+    axios.get("/api/products")
+      .then((res) => {
+        setProducts(res.data);
+      })
+      .catch((err) => {
+        console.error("Failed to fetch products:", err);
+      })
+      .finally(() => setIsLoading(false));
+  }, []);
+
+  // Timer logic
   useEffect(() => {
     const interval = setInterval(() => {
       setTimer((prev) => (prev > 0 ? prev - 1 : 0));
@@ -71,6 +82,14 @@ export default function FakeCheckout() {
         </div>
 
         <div className="p-4">
+          {isLoading && (
+            <div className="text-center mb-3">
+              <div className="spinner-border text-primary" role="status">
+                <span className="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          )}
+
           <h6 className="text-secondary mb-2">Pay via UPI ID</h6>
           <input
             type="text"
@@ -127,8 +146,9 @@ export default function FakeCheckout() {
           <button
             className="btn btn-success w-100 fw-bold"
             onClick={handleFakePayment}
+            disabled={isLoading}
           >
-            I've Paid ₹{amount}
+            {isLoading ? "Processing..." : `I've Paid ₹${amount}`}
           </button>
         </div>
       </div>

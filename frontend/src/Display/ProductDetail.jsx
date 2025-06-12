@@ -1,19 +1,11 @@
 import { useParams } from "react-router-dom";
-import axios from "axios";
 import { useEffect, useState } from "react";
 import "../CSS/ProductDetail.css";
 import DeliveryInfo from "./DeliveryInfo";
 import { Truck, ChevronRight, Shield, ArrowLeftRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import axios from "../utils/axiosInstance"; // adjust path if needed
+import axios from "../utils/axiosInstance";
 
-axios.get(`/api/products`)
-  .then((res) => {
-    // your logic
-  })
-  .catch((err) => {
-    console.error(err);
-  });
 const loadRazorpayScript = () => {
   return new Promise((resolve) => {
     const script = document.createElement("script");
@@ -30,33 +22,43 @@ export default function ProductDetail() {
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [loading, setLoading] = useState(true);
+  const [productsList, setProductsList] = useState([]); // For the products data
 
+  // Safe API call for products list (only runs in browser)
   useEffect(() => {
-    axios
-      .get(`http://localhost:5000/api/products/${id}`)
+    if (typeof window === "undefined") return;
+    
+    axios.get("/api/products")
       .then((res) => {
-        setProduct(res.data);
-        setLoading(false);
+        setProductsList(res.data);
       })
       .catch((err) => {
-        console.error(err);
-        setLoading(false);
+        console.error("Error fetching products:", err);
       });
+  }, []);
+
+  // Fetch single product data
+  useEffect(() => {
+    setLoading(true);
+    axios.get(`/api/products/${id}`)
+      .then((res) => {
+        setProduct(res.data);
+      })
+      .catch((err) => {
+        console.error("Error fetching product:", err);
+      })
+      .finally(() => setLoading(false));
   }, [id]);
 
-  const navigate = useNavigate(); // at the top
+  const navigate = useNavigate();
 
   const handleBuyNow = () => {
     const fakeOrderId = "order_" + Math.random().toString(36).substring(2, 10);
     const amount = product.price * quantity;
-  
     navigate(`/checkout/${fakeOrderId}/${amount}`);
   };
-  
 
-  
-
-  if (loading)
+  if (loading) {
     return (
       <div className="container py-5">
         <div className="placeholder-glow">
@@ -64,8 +66,11 @@ export default function ProductDetail() {
         </div>
       </div>
     );
+  }
 
-  if (!product) return <div className="container py-5">Product not found</div>;
+  if (!product) {
+    return <div className="container py-5">Product not found</div>;
+  }
 
   return (
     <div className="container py-4 amazon-product-detail">
