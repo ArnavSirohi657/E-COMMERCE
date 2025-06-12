@@ -17,6 +17,7 @@ import TopBar from "./NavBar/TopBar";
 import SignIn from "./LandingPage/SignIn";
 import SearchResults from "./Display/SearchResults.jsx";
 import ProductDetail from "./Display/ProductDetail.jsx";
+import FakeCheckout from "./Display/FakeCheckout.jsx";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/search" element={<SearchResults />} />
         <Route path="/product/:id" element={<ProductDetail />} />
+        <Route path="/checkout/:orderId/:amount" element={<FakeCheckout />} />
 
       </Routes>
       <Footer />

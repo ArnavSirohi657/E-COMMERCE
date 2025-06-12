@@ -259,7 +259,326 @@
         "price": 875.00,
         "category": "sports",
         "image": "/DATABASE/Product36.webp"
-      }
-    
-    
+      },
+
+
+
+      
+        {
+          "title": "StrideMax Running Shoes",
+          "description": "Lightweight and breathable shoes designed for comfort during long-distance runs.",
+          "price": 875.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product37.webp"
+        },
+        {
+          "title": "UrbanFlex Sneakers",
+          "description": "Stylish everyday sneakers with cushioned soles and modern urban design.",
+          "price": 899.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product38.webp"
+        },
+        {
+          "title": "TrailBlazer Outdoor Shoes",
+          "description":"Rugged shoes made for hiking and trail adventures, offering superior grip and durability.",
+          "price": 1099.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product39.webp"
+        },
+        {
+          "title": "Velocity Sports Trainers",
+          "description": "Engineered for speed, these trainers support high-intensity workouts and agility drills.",
+          "price": 949.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product40.webp"
+        },
+        {
+          "title": "Classic Leather Loafers",
+          "description": "Elegant leather loafers with timeless design, perfect for formal or semi-formal occasions.",
+          "price": 1299.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product41.webp"
+        },
+        {
+          "title": "AirZone Cushioned Shoes",
+          "description": "Enhanced cushioning system offers unmatched comfort and foot support.",
+          "price": 979.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product45.webp"
+        },
+        {
+          "title": "EdgeWalk High Tops",
+          "description": "High-top sneakers that blend retro looks with modern sole comfort.",
+          "price": 1049.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product43.webp"
+        },
+        {
+          "title": "FlexStep Casual Walkers",
+          "description": "Ideal for daily walks and casual outings with ergonomic insoles.",
+          "price": 859.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product44.webp"
+        },
+        {
+          "title": "RapidKick Training Shoes",
+          "description": "Designed for dynamic movement, these shoes support cross-training workouts.",
+          "price": 899.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product45.webp"
+        },
+        {
+          "title": "ZenStride Yoga Slip-Ons",
+          "description": "Flexible, lightweight slip-ons made for yoga, pilates, and barefoot training.",
+          "price": 799.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product46.webp"
+        },
+        {
+          "title": "StreetX Canvas Sneakers",
+          "description": "Trendy canvas shoes ideal for college and casual wear.",
+          "price": 699.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product47.webp"
+        },
+        {
+          "title": "TrekPro Trail Shoes",
+          "description": "Heavy-duty trekking shoes with reinforced toe caps and waterproof fabric.",
+          "price": 1149.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product48.webp"
+        },
+        {
+          "title": "NightRunner Glow Shoes",
+          "description": "Reflective finish and glow-in-the-dark accents for safe nighttime running.",
+          "price": 989.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product49.webp"
+        },
+        {
+          "title": "OfficeWalk Formal Shoes",
+          "description": "Premium PU leather shoes with anti-slip sole for all-day comfort at work.",
+          "price": 1199.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product50.webp"
+        },
+        {
+          "title": "SkyLite Mesh Trainers",
+          "description": "Ultra-light mesh shoes for summer workouts with breathable airflow.",
+          "price": 829.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product51.webp"
+        },
+        {
+          "title": "BoldStep Street Runners",
+          "description": "Chunky sole runners made to turn heads and offer full ankle support.",
+          "price": 999.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product52.webp"
+        },
+        {
+          "title": "GlideFit Everyday Shoes",
+          "description": "Minimalist and sleek, perfect for walking, errands, or lounging.",
+          "price": 749.00,
+          "category": "fashion",
+          "image": "/DATABASE/Product53.webp"
+        },
+
+
+
+
+        
+          {
+            "title": "GlideFit Everyday Shirt",
+            "description": "Breathable and soft cotton blend, perfect for everyday comfort.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product54.webp"
+          },
+          {
+            "title": "SwiftDry Running Tee",
+            "description": "Moisture-wicking athletic shirt designed for running and workouts.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product55.webp"
+          },
+          {
+            "title": "FormFit Office Shirt",
+            "description": "Tailored fit formal shirt ideal for office meetings and business wear.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product56.webp"
+          },
+          {
+            "title": "Casual Crew Neck Tee",
+            "description": "Minimalist design with a soft feel, ideal for casual everyday wear.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product57.webp"
+          },
+          {
+            "title": "Summer Stripes Shirt",
+            "description": "Lightweight striped shirt with breathable fabric for hot days.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product58.webp"
+          },
+          {
+            "title": "BoldBlock Graphic Tee",
+            "description": "Trendy graphic t-shirt with bold print and modern appeal.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product59.webp"
+          },
+          {
+            "title": "UrbanClassic Polo",
+            "description": "A classic polo tee with a modern twist, perfect for semi-formal occasions.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product60.webp"
+          },
+          {
+            "title": "LaidBack V-Neck Tee",
+            "description": "Soft V-neck design with stretchable comfort fit.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product61.webp"
+          },
+          {
+            "title": "MinimalFit Round Neck",
+            "description": "Simple and stylish round-neck tee for clean casual looks.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product62.webp"
+          },
+          {
+            "title": "FadeTone Summer Tee",
+            "description": "Gradient color tee with a breezy and airy summer-ready build.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product63.webp"
+          },
+          {
+            "title": "Retro Check Shirt",
+            "description": "Retro-style checks with full sleeves and a sharp collar cut.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product64.webp"
+          },
+          {
+            "title": "ZenPrint Graphic Tee",
+            "description": "Inspired by calm and nature, this graphic tee is both peaceful and stylish.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product65.webp"
+          },
+          {
+            "title": "BlackEdge Collar Shirt",
+            "description": "Sharp black shirt with contrast edges, made for bold fashion statements.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product66.webp"
+          },
+          {
+            "title": "Vintage Fade Tee",
+            "description": "Washed cotton finish for a vintage look and retro comfort.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Produc67.webp"
+          },
+          {
+            "title": "ComfyWear Lounge Tee",
+            "description": "Super soft, oversized tee made for lounging and laid-back days.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product68.webp"
+          },
+          {
+            "title": "SleekFit Henley Shirt",
+            "description": "Henley style with buttoned placket, blending casual and classy.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product69.webp"
+          },
+          {
+            "title": "CanvasArt Printed Tee",
+            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product70.webp"
+          },
+          {
+            "title": "CanvasArt Printed Tee",
+            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product71.webp"
+          },
+          {
+            "title": "CanvasArt Printed Tee",
+            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product72.webp"
+          },
+          {
+            "title": "CanvasArt Printed Tee",
+            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product73.webp"
+          },
+          {
+            "title": "CanvasArt Printed Tee",
+            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product74.webp"
+          },
+          {
+            "title": "CanvasArt Printed Tee",
+            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product75.webp"
+          },
+          {
+            "title": "CanvasArt Printed Tee",
+            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product76.webp"
+          },
+          {
+            "title": "CanvasArt Printed Tee",
+            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product77.webp"
+          },
+          {
+            "title": "CanvasArt Printed Tee",
+            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product78.webp"
+          },
+          {
+            "title": "CanvasArt Printed Tee",
+            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product79.webp"
+          },
+          {
+            "title": "CanvasArt Printed Tee",
+            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
+            "price": 749.00,
+            "category": "fashion",
+            "image": "/DATABASE/Product80.webp"
+          }
+        
+        
+      
+      
   ]

@@ -4,6 +4,17 @@ import { useEffect, useState } from "react";
 import "../CSS/ProductDetail.css";
 import DeliveryInfo from "./DeliveryInfo";
 import { Truck, ChevronRight, Shield, ArrowLeftRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+
+const loadRazorpayScript = () => {
+  return new Promise((resolve) => {
+    const script = document.createElement("script");
+    script.src = "https://checkout.razorpay.com/v1/checkout.js";
+    script.onload = () => resolve(true);
+    script.onerror = () => resolve(false);
+    document.body.appendChild(script);
+  });
+};
 
 export default function ProductDetail() {
   const { id } = useParams();
@@ -25,43 +36,49 @@ export default function ProductDetail() {
       });
   }, [id]);
 
-  if (loading) return (
-    <div className="container py-5">
-      <div className="placeholder-glow">
-        <div className="placeholder col-12" style={{ height: "500px" }}></div>
+  const navigate = useNavigate(); // at the top
+
+  const handleBuyNow = () => {
+    const fakeOrderId = "order_" + Math.random().toString(36).substring(2, 10);
+    const amount = product.price * quantity;
+  
+    navigate(`/checkout/${fakeOrderId}/${amount}`);
+  };
+  
+
+  
+
+  if (loading)
+    return (
+      <div className="container py-5">
+        <div className="placeholder-glow">
+          <div className="placeholder col-12" style={{ height: "500px" }}></div>
+        </div>
       </div>
-    </div>
-  );
+    );
 
   if (!product) return <div className="container py-5">Product not found</div>;
 
   return (
     <div className="container py-4 amazon-product-detail">
       <div className="row">
-        {/* Product Images Column - 60% width */}
         <div className="col-lg-6 col-md-6 mb-4">
           <div className="d-flex flex-lg-row flex-column">
-            {/* Thumbnails Column */}
-            
-
-            {/* Main Image Container */}
             <div className="flex-grow-1 d-flex justify-content-center align-items-center bg-white p-3 border rounded">
               <img
                 src={[product.image, ...(product.images || [])][selectedImage]}
                 alt={product.title}
                 className="img-fluid main-product-image"
                 style={{
-                  height: "700px",           // Increased height
+                  height: "700px",
                   width: "auto",
                   objectFit: "contain"
                 }}
               />
-
             </div>
           </div>
         </div>
 
-        {/* Product Info Column - 40% width */}
         <div className="col-lg-6 col-md-6">
           <h1 className="product-title mb-2" style={{ fontSize: "1.8rem" }}>{product.title}</h1>
 
@@ -127,7 +144,10 @@ export default function ProductDetail() {
             <button className="btn btn-warning btn-amazon-yellow flex-grow-1 py-2 fw-bold">
               Add to Cart
             </button>
-            <button className="btn btn-danger btn-amazon-orange flex-grow-1 py-2 fw-bold">
+            <button
+              className="btn btn-danger btn-amazon-orange flex-grow-1 py-2 fw-bold"
+              onClick={handleBuyNow}
+            >
               Buy Now
             </button>
           </div>

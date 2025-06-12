@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
 import productRoutes from "./routes/ProductRoutes.js"; // ✅ Import this
-
+import PayementRoutes from "./routes/PayementRoutes.js"; // ✅ Import this
 import authRoutes from "./routes/authRoutes.js";
 
 
@@ -13,6 +13,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/api/products", productRoutes); // ✅ Mount product-related endpoints
+app.use("/api/payment", PayementRoutes);
 
 
 // ✅ MongoDB connection
