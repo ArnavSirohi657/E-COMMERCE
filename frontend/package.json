@@ -18,6 +18,7 @@
     "@mui/icons-material": "^7.1.1",
     "@mui/material": "^7.1.1",
     "axios": "^1.9.0",
+    "backend": "file:..",
     "lucide-react": "^0.511.0",
     "razorpay": "^2.9.6",
     "react": "^19.1.0",
