@@ -5,7 +5,15 @@ import "../CSS/ProductDetail.css";
 import DeliveryInfo from "./DeliveryInfo";
 import { Truck, ChevronRight, Shield, ArrowLeftRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import axios from "../utils/axiosInstance"; // adjust path if needed
 
+axios.get(`/api/products`)
+  .then((res) => {
+    // your logic
+  })
+  .catch((err) => {
+    console.error(err);
+  });
 const loadRazorpayScript = () => {
   return new Promise((resolve) => {
     const script = document.createElement("script");

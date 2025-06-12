@@ -2,7 +2,15 @@ import { useLocation, Link } from "react-router-dom";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "../CSS/SearchResult.css";
+import axios from "../utils/axiosInstance"; // adjust path if needed
 
+axios.get(`/api/products`)
+  .then((res) => {
+    // your logic
+  })
+  .catch((err) => {
+    console.error(err);
+  });
 export default function SearchResults() {
   const [results, setResults] = useState([]);
   const location = useLocation();

@@ -1,8 +1,15 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../CSS/SignIn.css";
-import axios from "axios";
+import axios from "../utils/axiosInstance"; // adjust path if needed
 
+axios.get(`/api/products`)
+  .then((res) => {
+    // your logic
+  })
+  .catch((err) => {
+    console.error(err);
+  });
 
 export default function SignIn() {
     const [signInData, setSignInData] = useState({ email: "", password: "" });

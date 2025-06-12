@@ -1,6 +1,14 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
+import axios from "../utils/axiosInstance"; // adjust path if needed
 
+axios.get(`/api/products`)
+  .then((res) => {
+    // your logic
+  })
+  .catch((err) => {
+    console.error(err);
+  });
 export default function FakeCheckout() {
   const { orderId, amount } = useParams();
   const [paid, setPaid] = useState(false);
