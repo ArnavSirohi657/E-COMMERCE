@@ -2,21 +2,26 @@ import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
-import productRoutes from "./routes/ProductRoutes.js"; // ✅ Import this
-import PayementRoutes from "./routes/PayementRoutes.js"; // ✅ Import this
-import authRoutes from "./routes/authRoutes.js";
+import path from "path";
+import { fileURLToPath } from "url";
 
+import productRoutes from "./routes/ProductRoutes.js";
+import PayementRoutes from "./routes/PayementRoutes.js";
+import authRoutes from "./routes/authRoutes.js";
 
 dotenv.config();
 const app = express();
 
+// Middleware
 app.use(cors());
 app.use(express.json());
-app.use("/api/products", productRoutes); // ✅ Mount product-related endpoints
+
+// API Routes
+app.use("/api/products", productRoutes);
 app.use("/api/payment", PayementRoutes);
+app.use("/api/auth", authRoutes);
 
-
-// ✅ MongoDB connection
+// MongoDB Connection
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("✅ MongoDB connected"))
   .catch((err) => {
@@ -24,8 +29,19 @@ mongoose.connect(process.env.MONGO_URI)
     process.exit(1);
   });
 
-// ✅ Routes
-app.use("/api/auth", authRoutes);
+// Serve frontend build (Vite or CRA)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Serve static files
+app.use(express.static(path.join(__dirname, "../frontend/dist"))); // Use ../frontend/build if using CRA
+
+// Catch-all route to serve index.html for React Router
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../frontend/dist/index.html")); // Or ../frontend/build/index.html
+});
+
+// Server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
