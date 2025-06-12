@@ -11,7 +11,7 @@ export default function SignIn() {
   const handleSignIn = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/auth/login", {
+      const res = await axios.post("api/auth/login", {
         email: signInData.email,
         password: signInData.password,
       });
@@ -29,7 +29,7 @@ export default function SignIn() {
   const handleSignUp = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/auth/register", {
+      const res = await axios.post("api/auth/register", {
         name: signUpData.name,
         email: signUpData.email,
         password: signUpData.password,
