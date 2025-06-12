@@ -570,13 +570,51 @@
             "category": "fashion",
             "image": "/DATABASE/Product79.webp"
           },
-          {
-            "title": "CanvasArt Printed Tee",
-            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
-            "price": 749.00,
-            "category": "fashion",
-            "image": "/DATABASE/Product80.webp"
-          }
+
+
+          
+  {
+    "title": "CanvasX One Plus 5G",
+    "description": "A blazing-fast 5G smartphone with a 120Hz AMOLED display and Snapdragon processor.",
+    "price": 27499.00,
+    "category": "mobiles",
+    "image": "/DATABASE/Product80.webp"
+  },
+  {
+    "title": "NovaEdge Ultra Max",
+    "description": "Stunning edge-to-edge display, triple rear camera setup, and 6000mAh battery life.",
+    "price": 23999.00,
+    "category": "mobiles",
+    "image": "/DATABASE/Product81.webp"
+  },
+  {
+    "title": "PixelGlow Vibe 12",
+    "description": "A sleek and powerful phone with AI-enhanced photography and crystal-clear audio.",
+    "price": 25999.00,
+    "category": "mobiles",
+    "image": "/DATABASE/Product82.webp"
+  },
+  {
+    "title": "SkyX Blaze 8 Pro",
+    "description": "Game, stream, and snap with the powerful MediaTek G99 processor and 90Hz refresh rate.",
+    "price": 21499.00,
+    "category": "mobiles",
+    "image": "/DATABASE/Product83.webp"
+  },
+  {
+    "title": "RealSmart GT Fusion",
+    "description": "Packed with 5G, liquid cooling, and dual stereo speakers for an immersive experience.",
+    "price": 28999.00,
+    "category": "mobiles",
+    "image": "/DATABASE/Product84.webp"
+  },
+  {
+    "title": "Astra Pulse Z7",
+    "description": "Bold design, powerful battery, and AI-backed dual camera—made for creators.",
+    "price": 19999.00,
+    "category": "mobiles",
+    "image": "/DATABASE/Product85.webp"
+  }
         
         
       

@@ -1,15 +1,10 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import axios from "axios"
 import "../CSS/SignUp.css";
-import axios from "../utils/axiosInstance"; // adjust path if needed
 
-axios.get(`/api/products`)
-  .then((res) => {
-    // your logic
-  })
-  .catch((err) => {
-    console.error(err);
-  });
+
+
 export default function SignUp() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -17,23 +12,25 @@ export default function SignUp() {
 
   const navigate = useNavigate();
 
-  const handleRegister = (e) => {
+  const handleRegister = async (e) => {
     e.preventDefault();
-
-    // ✅ You can replace this with an API call to your backend
-    const userData = {
-      name,
-      email,
-      password,
-    };
-
-    console.log("Registering user:", userData);
-    // axios.post("/api/auth/signup", userData)...
-
-    // Redirect after success (simulate for now)
-    alert("Account created successfully!");
-    navigate("/login");
+  
+    try {
+      const res = await axios.post("http://localhost:5000/api/auth/register", {
+        name,
+        email,
+        password,
+      });
+  
+      console.log("✅ Registration response:", res.data);
+      alert("✅ Account created successfully!");
+      navigate("/login");
+    } catch (err) {
+      console.error("❌ Signup error:", err.response?.data || err.message);
+      alert(err.response?.data?.message || "❌ Account creation failed");
+    }
   };
+  
 
   return (
     <div className="signup-container d-flex align-items-center justify-content-center">

@@ -1,19 +1,11 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "../CSS/ProductDetail.css";
 import DeliveryInfo from "./DeliveryInfo";
 import { Truck, ChevronRight, Shield, ArrowLeftRight } from "lucide-react";
-import { useNavigate } from "react-router-dom";
-import axios from "../utils/axiosInstance"; // adjust path if needed
+import { useCart } from "../context/CartContext"; // ✅ import useCart
 
-axios.get(`/api/products`)
-  .then((res) => {
-    // your logic
-  })
-  .catch((err) => {
-    console.error(err);
-  });
 const loadRazorpayScript = () => {
   return new Promise((resolve) => {
     const script = document.createElement("script");
@@ -31,6 +23,9 @@ export default function ProductDetail() {
   const [quantity, setQuantity] = useState(1);
   const [loading, setLoading] = useState(true);
 
+  const navigate = useNavigate();
+  const { addToCart } = useCart(); // ✅ use addToCart from context
+
   useEffect(() => {
     axios
       .get(`http://localhost:5000/api/products/${id}`)
@@ -44,17 +39,11 @@ export default function ProductDetail() {
       });
   }, [id]);
 
-  const navigate = useNavigate(); // at the top
-
   const handleBuyNow = () => {
     const fakeOrderId = "order_" + Math.random().toString(36).substring(2, 10);
     const amount = product.price * quantity;
-  
     navigate(`/checkout/${fakeOrderId}/${amount}`);
   };
-  
-
-  
 
   if (loading)
     return (
@@ -149,7 +138,19 @@ export default function ProductDetail() {
           </div>
 
           <div className="button-group d-flex gap-3 mb-4">
-            <button className="btn btn-warning btn-amazon-yellow flex-grow-1 py-2 fw-bold">
+            <button
+              className="btn btn-warning btn-amazon-yellow flex-grow-1 py-2 fw-bold"
+              onClick={() => {
+                addToCart({
+                  id: product._id,
+                  title: product.title,
+                  price: product.price,
+                  image: product.image,
+                  quantity,
+                });
+                alert("Product added to cart!");
+              }}
+            >
               Add to Cart
             </button>
             <button

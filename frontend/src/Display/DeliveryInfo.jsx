@@ -1,15 +1,7 @@
 import { useState } from "react";
 import "../CSS/DeliveryInfo.css";
 import { MapPin, Truck } from "lucide-react";
-import axios from "../utils/axiosInstance"; // adjust path if needed
 
-axios.get(`/api/products`)
-  .then((res) => {
-    // your logic
-  })
-  .catch((err) => {
-    console.error(err);
-  });
 export default function DeliveryInfo() {
   const [pincode, setPincode] = useState("");
   const [location, setLocation] = useState("");
