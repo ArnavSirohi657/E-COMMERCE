@@ -398,186 +398,1069 @@
           {
             "title": "SwiftDry Running Tee",
             "description": "Moisture-wicking athletic shirt designed for running and workouts.",
-            "price": 749.00,
+            "price": 459.00,
             "category": "fashion",
             "image": "/DATABASE/Product55.webp"
           },
           {
             "title": "FormFit Office Shirt",
             "description": "Tailored fit formal shirt ideal for office meetings and business wear.",
-            "price": 749.00,
+            "price": 497.00,
             "category": "fashion",
             "image": "/DATABASE/Product56.webp"
           },
           {
             "title": "Casual Crew Neck Tee",
             "description": "Minimalist design with a soft feel, ideal for casual everyday wear.",
-            "price": 749.00,
+            "price": 777.00,
             "category": "fashion",
             "image": "/DATABASE/Product57.webp"
           },
           {
             "title": "Summer Stripes Shirt",
             "description": "Lightweight striped shirt with breathable fabric for hot days.",
-            "price": 749.00,
+            "price": 658.00,
             "category": "fashion",
             "image": "/DATABASE/Product58.webp"
           },
           {
             "title": "BoldBlock Graphic Tee",
             "description": "Trendy graphic t-shirt with bold print and modern appeal.",
-            "price": 749.00,
+            "price": 976.00,
             "category": "fashion",
             "image": "/DATABASE/Product59.webp"
           },
           {
             "title": "UrbanClassic Polo",
             "description": "A classic polo tee with a modern twist, perfect for semi-formal occasions.",
-            "price": 749.00,
+            "price": 9555.00,
             "category": "fashion",
             "image": "/DATABASE/Product60.webp"
           },
           {
             "title": "LaidBack V-Neck Tee",
             "description": "Soft V-neck design with stretchable comfort fit.",
-            "price": 749.00,
+            "price": 123.00,
             "category": "fashion",
             "image": "/DATABASE/Product61.webp"
           },
           {
             "title": "MinimalFit Round Neck",
             "description": "Simple and stylish round-neck tee for clean casual looks.",
-            "price": 749.00,
+            "price": 344.00,
             "category": "fashion",
             "image": "/DATABASE/Product62.webp"
           },
           {
             "title": "FadeTone Summer Tee",
             "description": "Gradient color tee with a breezy and airy summer-ready build.",
-            "price": 749.00,
+            "price": 567.00,
             "category": "fashion",
             "image": "/DATABASE/Product63.webp"
           },
           {
             "title": "Retro Check Shirt",
             "description": "Retro-style checks with full sleeves and a sharp collar cut.",
-            "price": 749.00,
+            "price": 789.00,
             "category": "fashion",
             "image": "/DATABASE/Product64.webp"
           },
           {
             "title": "ZenPrint Graphic Tee",
             "description": "Inspired by calm and nature, this graphic tee is both peaceful and stylish.",
-            "price": 749.00,
+            "price": 567.00,
             "category": "fashion",
             "image": "/DATABASE/Product65.webp"
           },
           {
             "title": "BlackEdge Collar Shirt",
             "description": "Sharp black shirt with contrast edges, made for bold fashion statements.",
-            "price": 749.00,
+            "price": 543.00,
             "category": "fashion",
             "image": "/DATABASE/Product66.webp"
           },
           {
             "title": "Vintage Fade Tee",
             "description": "Washed cotton finish for a vintage look and retro comfort.",
-            "price": 749.00,
+            "price": 234.00,
             "category": "fashion",
             "image": "/DATABASE/Produc67.webp"
           },
           {
             "title": "ComfyWear Lounge Tee",
             "description": "Super soft, oversized tee made for lounging and laid-back days.",
-            "price": 749.00,
+            "price": 671.00,
             "category": "fashion",
             "image": "/DATABASE/Product68.webp"
           },
           {
             "title": "SleekFit Henley Shirt",
             "description": "Henley style with buttoned placket, blending casual and classy.",
-            "price": 749.00,
+            "price": 678.00,
             "category": "fashion",
             "image": "/DATABASE/Product69.webp"
           },
-          {
-            "title": "CanvasArt Printed Tee",
-            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
-            "price": 749.00,
-            "category": "fashion",
-            "image": "/DATABASE/Product70.webp"
-          },
-          {
-            "title": "CanvasArt Printed Tee",
-            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
-            "price": 749.00,
-            "category": "fashion",
-            "image": "/DATABASE/Product71.webp"
-          },
-          {
-            "title": "CanvasArt Printed Tee",
-            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
-            "price": 749.00,
-            "category": "fashion",
-            "image": "/DATABASE/Product72.webp"
-          },
-          {
-            "title": "CanvasArt Printed Tee",
-            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
-            "price": 749.00,
-            "category": "fashion",
-            "image": "/DATABASE/Product73.webp"
-          },
-          {
-            "title": "CanvasArt Printed Tee",
-            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
-            "price": 749.00,
-            "category": "fashion",
-            "image": "/DATABASE/Product74.webp"
-          },
-          {
-            "title": "CanvasArt Printed Tee",
-            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
-            "price": 749.00,
-            "category": "fashion",
-            "image": "/DATABASE/Product75.webp"
-          },
-          {
-            "title": "CanvasArt Printed Tee",
-            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
-            "price": 749.00,
-            "category": "fashion",
-            "image": "/DATABASE/Product76.webp"
-          },
-          {
-            "title": "CanvasArt Printed Tee",
-            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
-            "price": 749.00,
-            "category": "fashion",
-            "image": "/DATABASE/Product77.webp"
-          },
-          {
-            "title": "CanvasArt Printed Tee",
-            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
-            "price": 749.00,
-            "category": "fashion",
-            "image": "/DATABASE/Product78.webp"
-          },
-          {
-            "title": "CanvasArt Printed Tee",
-            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
-            "price": 749.00,
-            "category": "fashion",
-            "image": "/DATABASE/Product79.webp"
-          },
-          {
-            "title": "CanvasArt Printed Tee",
-            "description": "Street-inspired artwork on a premium cotton t-shirt canvas.",
-            "price": 749.00,
-            "category": "fashion",
-            "image": "/DATABASE/Product80.webp"
-          }
-        
+
+
+
+
+
+
+          
+            {
+              "title": "Night Skull Graphic Tee",
+              "description": "A black tee featuring bold skull art for a rebellious streetwear vibe.",
+              "price": 445.00,
+              "category": "fashion",
+              "image": "/DATABASE/Product70.webp"
+            },
+            {
+              "title": "Urban Scribble Graffiti Tee",
+              "description": "White cotton tee with graffiti-style sketch prints, perfect for an edgy city look.",
+              "price": 652.00,
+              "category": "fashion",
+              "image": "/DATABASE/Product71.webp"
+            },
+            {
+              "title": "Skyline Glow City Tee",
+              "description": "Midnight blue tee with a glowing city skyline print, made for night crawlers.",
+              "price": 78.00,
+              "category": "fashion",
+              "image": "/DATABASE/Product72.webp"
+            },
+            {
+              "title": "Vintage Record Player Tee",
+              "description": "Retro-inspired print of a record player on a soft cotton tee for music lovers.",
+              "price": 1119.00,
+              "category": "fashion",
+              "image": "/DATABASE/Product73.webp"
+            },
+            {
+              "title": "Cyber Punk Wireframe Tee",
+              "description": "Digital-age aesthetics on display with glitchy wireframe art on black fabric.",
+              "price": 856.00,
+              "category": "fashion",
+              "image": "/DATABASE/Product74.webp"
+            },
+            {
+              "title": "Desert Mirage Camel Tee",
+              "description": "A scenic camel silhouette walking into a sunset — minimal yet expressive.",
+              "price": 929.00,
+              "category": "fashion",
+              "image": "/DATABASE/Product75.webp"
+            },
+            {
+              "title": "Pop Culture Collage Tee",
+              "description": "A bold collage of vintage pop icons and neon tones on premium cotton.",
+              "price": 932.00,
+              "category": "fashion",
+              "image": "/DATABASE/Product76.webp"
+            },
+            {
+              "title": "Astronaut Dreamscape Tee",
+              "description": "An astronaut floating in a colorful dreamspace — explore in style.",
+              "price": 655.00,
+              "category": "fashion",
+              "image": "/DATABASE/Product77.webp"
+            },
+            {
+              "title": "Cherry Blossom Samurai Tee",
+              "description": "A beautiful blend of nature and warrior spirit with sakura petals and a samurai.",
+              "price": 566.00,
+              "category": "fashion",
+              "image": "/DATABASE/Product78.webp"
+            },
+            {
+              "title": "Tokyo Street Neon Tee",
+              "description": "Inspired by the vibrant chaos of Tokyo’s nightlife — neon signs and motion blur.",
+              "price": 999.00,
+              "category": "fashion",
+              "image": "/DATABASE/Product79.webp"
+            },
+            {
+              "title": "Minimal Line Art Face Tee",
+              "description": "A modern, artsy statement with abstract line art of a face on soft cotton.",
+              "price": 1000.00,
+              "category": "fashion",
+              "image": "/DATABASE/Product80.webp"
+            },
+
+
+
+
+            {
+              "title": "Pixel Nova X2 5G",
+              "description": "Experience pure Android with a stunning AMOLED display and powerful camera AI.",
+              "price": 34999.00,
+              "category": "TECH",
+              "image": "/DATABASE/Product81.webp"
+            },
+            {
+              "title": "iOne ZMax Ultra",
+              "description": "A sleek design with A14 Bionic power, ultra-wide camera, and next-gen security.",
+              "price": 69999.00,
+              "category": "TECH",
+              "image": "/DATABASE/Product82.webp"
+            },
+            {
+              "title": "Redmi Note Vibe 13",
+              "description": "120Hz immersive display, MediaTek Dimensity chip, and long-lasting battery backup.",
+              "price": 17999.00,
+              "category": "TECH",
+              "image": "/DATABASE/Product83.webp"
+            },
+            {
+              "title": "Samsung Galaxy Wave S20",
+              "description": "Super AMOLED+, 108MP Pro Mode camera, and One UI for fluid multitasking.",
+              "price": 53999.00,
+              "category": "TECH",
+              "image": "/DATABASE/Product84.webp"
+            },
+            {
+              "title": "Realme GT Neo 5 Lite",
+              "description": "Flagship-level speed with 150W fast charging and Snapdragon 7 Gen 1.",
+              "price": 25999.00,
+              "category": "TECH",
+              "image": "/DATABASE/Product85.webp"
+            },
+            {
+              "title": "iQOO Hyper 12 Turbo",
+              "description": "Gaming beast with liquid cooling, 144Hz display, and pro haptics engine.",
+              "price": 30999.00,
+              "category": "TECH",
+              "image": "/DATABASE/Product86.webp"
+            },
+            {
+              "title": "OnePlus 11R Pro 5G",
+              "description": "OxygenOS experience, curved AMOLED, and Hasselblad-enhanced camera tech.",
+              "price": 43999.00,
+              "category": "TECH",
+              "image": "/DATABASE/Product87.webp"
+            },
+            {
+              "title": "Motorola Edge Fusion 5G",
+              "description": "Edge-to-edge clarity with Dolby sound and ultra-clean Android interface.",
+              "price": 28999.00,
+              "category": "TECH",
+              "image": "/DATABASE/Product88.webp"
+            },
+            {
+              "title": "Infinix Zero Ultra Neo",
+              "description": "Fast, futuristic and affordable — powered by Helio G99 and a 200MP camera.",
+              "price": 16999.00,
+              "category": "TECH",
+              "image": "/DATABASE/Product89.webp"
+            },
+            {
+              "title": "Asus ROG Phone X5",
+              "description": "Built for serious gamers with RGB, air triggers, and a 6000mAh monster battery.",
+              "price": 74999.00,
+              "category": "TECH",
+              "image": "/DATABASE/Product90.webp"
+            },
+            
+              {
+                "id": 1,
+                "title": "Home Product 1",
+                "description": "High-quality home item number 1 for your daily needs.",
+                "price": 7272.14,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=1"
+              },
+              {
+                "id": 2,
+                "title": "Sports Product 2",
+                "description": "High-quality sports item number 2 for your daily needs.",
+                "price": 6512.51,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=2"
+              },
+              {
+                "id": 3,
+                "title": "Sports Product 3",
+                "description": "High-quality sports item number 3 for your daily needs.",
+                "price": 3385.76,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=3"
+              },
+              {
+                "id": 4,
+                "title": "Home Product 4",
+                "description": "High-quality home item number 4 for your daily needs.",
+                "price": 7690.59,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=4"
+              },
+              {
+                "id": 5,
+                "title": "Tech Product 5",
+                "description": "High-quality tech item number 5 for your daily needs.",
+                "price": 5081.67,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=5"
+              },
+              {
+                "id": 6,
+                "title": "Home Product 6",
+                "description": "High-quality home item number 6 for your daily needs.",
+                "price": 2061.6,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=6"
+              },
+              {
+                "id": 7,
+                "title": "Sports Product 7",
+                "description": "High-quality sports item number 7 for your daily needs.",
+                "price": 3969.66,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=7"
+              },
+              {
+                "id": 8,
+                "title": "Fashion Product 8",
+                "description": "High-quality fashion item number 8 for your daily needs.",
+                "price": 7276.94,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=8"
+              },
+              {
+                "id": 9,
+                "title": "Home Product 9",
+                "description": "High-quality home item number 9 for your daily needs.",
+                "price": 2021.51,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=9"
+              },
+              {
+                "id": 10,
+                "title": "Home Product 10",
+                "description": "High-quality home item number 10 for your daily needs.",
+                "price": 7657.64,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=10"
+              },
+              {
+                "id": 11,
+                "title": "Sports Product 11",
+                "description": "High-quality sports item number 11 for your daily needs.",
+                "price": 4198.97,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=11"
+              },
+              {
+                "id": 12,
+                "title": "Beauty Product 12",
+                "description": "High-quality beauty item number 12 for your daily needs.",
+                "price": 6311.71,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=12"
+              },
+              {
+                "id": 13,
+                "title": "Beauty Product 13",
+                "description": "High-quality beauty item number 13 for your daily needs.",
+                "price": 9806.0,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=13"
+              },
+              {
+                "id": 14,
+                "title": "Beauty Product 14",
+                "description": "High-quality beauty item number 14 for your daily needs.",
+                "price": 1359.76,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=14"
+              },
+              {
+                "id": 15,
+                "title": "Sports Product 15",
+                "description": "High-quality sports item number 15 for your daily needs.",
+                "price": 5579.38,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=15"
+              },
+              {
+                "id": 16,
+                "title": "Fashion Product 16",
+                "description": "High-quality fashion item number 16 for your daily needs.",
+                "price": 1867.73,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=16"
+              },
+              {
+                "id": 17,
+                "title": "Sports Product 17",
+                "description": "High-quality sports item number 17 for your daily needs.",
+                "price": 4314.77,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=17"
+              },
+              {
+                "id": 18,
+                "title": "Sports Product 18",
+                "description": "High-quality sports item number 18 for your daily needs.",
+                "price": 5891.56,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=18"
+              },
+              {
+                "id": 19,
+                "title": "Tech Product 19",
+                "description": "High-quality tech item number 19 for your daily needs.",
+                "price": 4232.81,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=19"
+              },
+              {
+                "id": 20,
+                "title": "Fashion Product 20",
+                "description": "High-quality fashion item number 20 for your daily needs.",
+                "price": 1692.39,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=20"
+              },
+              {
+                "id": 21,
+                "title": "Sports Product 21",
+                "description": "High-quality sports item number 21 for your daily needs.",
+                "price": 4083.47,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=21"
+              },
+              {
+                "id": 22,
+                "title": "Sports Product 22",
+                "description": "High-quality sports item number 22 for your daily needs.",
+                "price": 2764.0,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=22"
+              },
+              {
+                "id": 23,
+                "title": "Beauty Product 23",
+                "description": "High-quality beauty item number 23 for your daily needs.",
+                "price": 2295.84,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=23"
+              },
+              {
+                "id": 24,
+                "title": "Tech Product 24",
+                "description": "High-quality tech item number 24 for your daily needs.",
+                "price": 8652.55,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=24"
+              },
+              {
+                "id": 25,
+                "title": "Sports Product 25",
+                "description": "High-quality sports item number 25 for your daily needs.",
+                "price": 9280.79,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=25"
+              },
+              {
+                "id": 26,
+                "title": "Home Product 26",
+                "description": "High-quality home item number 26 for your daily needs.",
+                "price": 3503.87,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=26"
+              },
+              {
+                "id": 27,
+                "title": "Beauty Product 27",
+                "description": "High-quality beauty item number 27 for your daily needs.",
+                "price": 1861.49,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=27"
+              },
+              {
+                "id": 28,
+                "title": "Home Product 28",
+                "description": "High-quality home item number 28 for your daily needs.",
+                "price": 1068.71,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=28"
+              },
+              {
+                "id": 29,
+                "title": "Home Product 29",
+                "description": "High-quality home item number 29 for your daily needs.",
+                "price": 5377.23,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=29"
+              },
+              {
+                "id": 30,
+                "title": "Beauty Product 30",
+                "description": "High-quality beauty item number 30 for your daily needs.",
+                "price": 1191.22,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=30"
+              },
+              {
+                "id": 31,
+                "title": "Tech Product 31",
+                "description": "High-quality tech item number 31 for your daily needs.",
+                "price": 1024.72,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=31"
+              },
+              {
+                "id": 32,
+                "title": "Home Product 32",
+                "description": "High-quality home item number 32 for your daily needs.",
+                "price": 1526.43,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=32"
+              },
+              {
+                "id": 33,
+                "title": "Sports Product 33",
+                "description": "High-quality sports item number 33 for your daily needs.",
+                "price": 6906.48,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=33"
+              },
+              {
+                "id": 34,
+                "title": "Tech Product 34",
+                "description": "High-quality tech item number 34 for your daily needs.",
+                "price": 8572.6,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=34"
+              },
+              {
+                "id": 35,
+                "title": "Beauty Product 35",
+                "description": "High-quality beauty item number 35 for your daily needs.",
+                "price": 1433.41,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=35"
+              },
+              {
+                "id": 36,
+                "title": "Sports Product 36",
+                "description": "High-quality sports item number 36 for your daily needs.",
+                "price": 3420.35,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=36"
+              },
+              {
+                "id": 37,
+                "title": "Home Product 37",
+                "description": "High-quality home item number 37 for your daily needs.",
+                "price": 5643.62,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=37"
+              },
+              {
+                "id": 38,
+                "title": "Sports Product 38",
+                "description": "High-quality sports item number 38 for your daily needs.",
+                "price": 7652.01,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=38"
+              },
+              {
+                "id": 39,
+                "title": "Sports Product 39",
+                "description": "High-quality sports item number 39 for your daily needs.",
+                "price": 3768.21,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=39"
+              },
+              {
+                "id": 40,
+                "title": "Sports Product 40",
+                "description": "High-quality sports item number 40 for your daily needs.",
+                "price": 3812.06,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=40"
+              },
+              {
+                "id": 41,
+                "title": "Fashion Product 41",
+                "description": "High-quality fashion item number 41 for your daily needs.",
+                "price": 4257.6,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=41"
+              },
+              {
+                "id": 42,
+                "title": "Home Product 42",
+                "description": "High-quality home item number 42 for your daily needs.",
+                "price": 8124.55,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=42"
+              },
+              {
+                "id": 43,
+                "title": "Fashion Product 43",
+                "description": "High-quality fashion item number 43 for your daily needs.",
+                "price": 7719.05,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=43"
+              },
+              {
+                "id": 44,
+                "title": "Sports Product 44",
+                "description": "High-quality sports item number 44 for your daily needs.",
+                "price": 4837.0,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=44"
+              },
+              {
+                "id": 45,
+                "title": "Sports Product 45",
+                "description": "High-quality sports item number 45 for your daily needs.",
+                "price": 4381.84,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=45"
+              },
+              {
+                "id": 46,
+                "title": "Tech Product 46",
+                "description": "High-quality tech item number 46 for your daily needs.",
+                "price": 6152.12,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=46"
+              },
+              {
+                "id": 47,
+                "title": "Fashion Product 47",
+                "description": "High-quality fashion item number 47 for your daily needs.",
+                "price": 520.98,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=47"
+              },
+              {
+                "id": 48,
+                "title": "Sports Product 48",
+                "description": "High-quality sports item number 48 for your daily needs.",
+                "price": 4101.46,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=48"
+              },
+              {
+                "id": 49,
+                "title": "Sports Product 49",
+                "description": "High-quality sports item number 49 for your daily needs.",
+                "price": 865.59,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=49"
+              },
+              {
+                "id": 50,
+                "title": "Home Product 50",
+                "description": "High-quality home item number 50 for your daily needs.",
+                "price": 4321.84,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=50"
+              },
+              {
+                "id": 51,
+                "title": "Beauty Product 51",
+                "description": "High-quality beauty item number 51 for your daily needs.",
+                "price": 8761.7,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=51"
+              },
+              {
+                "id": 52,
+                "title": "Fashion Product 52",
+                "description": "High-quality fashion item number 52 for your daily needs.",
+                "price": 2451.24,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=52"
+              },
+              {
+                "id": 53,
+                "title": "Home Product 53",
+                "description": "High-quality home item number 53 for your daily needs.",
+                "price": 5225.21,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=53"
+              },
+              {
+                "id": 54,
+                "title": "Tech Product 54",
+                "description": "High-quality tech item number 54 for your daily needs.",
+                "price": 9981.31,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=54"
+              },
+              {
+                "id": 55,
+                "title": "Tech Product 55",
+                "description": "High-quality tech item number 55 for your daily needs.",
+                "price": 671.72,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=55"
+              },
+              {
+                "id": 56,
+                "title": "Tech Product 56",
+                "description": "High-quality tech item number 56 for your daily needs.",
+                "price": 3816.07,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=56"
+              },
+              {
+                "id": 57,
+                "title": "Beauty Product 57",
+                "description": "High-quality beauty item number 57 for your daily needs.",
+                "price": 644.81,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=57"
+              },
+              {
+                "id": 58,
+                "title": "Tech Product 58",
+                "description": "High-quality tech item number 58 for your daily needs.",
+                "price": 8624.19,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=58"
+              },
+              {
+                "id": 59,
+                "title": "Fashion Product 59",
+                "description": "High-quality fashion item number 59 for your daily needs.",
+                "price": 4851.19,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=59"
+              },
+              {
+                "id": 60,
+                "title": "Tech Product 60",
+                "description": "High-quality tech item number 60 for your daily needs.",
+                "price": 2817.15,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=60"
+              },
+              {
+                "id": 61,
+                "title": "Home Product 61",
+                "description": "High-quality home item number 61 for your daily needs.",
+                "price": 6360.81,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=61"
+              },
+              {
+                "id": 62,
+                "title": "Home Product 62",
+                "description": "High-quality home item number 62 for your daily needs.",
+                "price": 6669.97,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=62"
+              },
+              {
+                "id": 63,
+                "title": "Home Product 63",
+                "description": "High-quality home item number 63 for your daily needs.",
+                "price": 6278.0,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=63"
+              },
+              {
+                "id": 64,
+                "title": "Sports Product 64",
+                "description": "High-quality sports item number 64 for your daily needs.",
+                "price": 8780.88,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=64"
+              },
+              {
+                "id": 65,
+                "title": "Tech Product 65",
+                "description": "High-quality tech item number 65 for your daily needs.",
+                "price": 2851.35,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=65"
+              },
+              {
+                "id": 66,
+                "title": "Beauty Product 66",
+                "description": "High-quality beauty item number 66 for your daily needs.",
+                "price": 7167.69,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=66"
+              },
+              {
+                "id": 67,
+                "title": "Tech Product 67",
+                "description": "High-quality tech item number 67 for your daily needs.",
+                "price": 5114.07,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=67"
+              },
+              {
+                "id": 68,
+                "title": "Tech Product 68",
+                "description": "High-quality tech item number 68 for your daily needs.",
+                "price": 1084.97,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=68"
+              },
+              {
+                "id": 69,
+                "title": "Fashion Product 69",
+                "description": "High-quality fashion item number 69 for your daily needs.",
+                "price": 4130.98,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=69"
+              },
+              {
+                "id": 70,
+                "title": "Home Product 70",
+                "description": "High-quality home item number 70 for your daily needs.",
+                "price": 1866.17,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=70"
+              },
+              {
+                "id": 71,
+                "title": "Sports Product 71",
+                "description": "High-quality sports item number 71 for your daily needs.",
+                "price": 1670.27,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=71"
+              },
+              {
+                "id": 72,
+                "title": "Beauty Product 72",
+                "description": "High-quality beauty item number 72 for your daily needs.",
+                "price": 2533.96,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=72"
+              },
+              {
+                "id": 73,
+                "title": "Fashion Product 73",
+                "description": "High-quality fashion item number 73 for your daily needs.",
+                "price": 1916.68,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=73"
+              },
+              {
+                "id": 74,
+                "title": "Home Product 74",
+                "description": "High-quality home item number 74 for your daily needs.",
+                "price": 5314.08,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=74"
+              },
+              {
+                "id": 75,
+                "title": "Fashion Product 75",
+                "description": "High-quality fashion item number 75 for your daily needs.",
+                "price": 7025.72,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=75"
+              },
+              {
+                "id": 76,
+                "title": "Sports Product 76",
+                "description": "High-quality sports item number 76 for your daily needs.",
+                "price": 9117.56,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=76"
+              },
+              {
+                "id": 77,
+                "title": "Fashion Product 77",
+                "description": "High-quality fashion item number 77 for your daily needs.",
+                "price": 1387.56,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=77"
+              },
+              {
+                "id": 78,
+                "title": "Fashion Product 78",
+                "description": "High-quality fashion item number 78 for your daily needs.",
+                "price": 814.43,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=78"
+              },
+              {
+                "id": 79,
+                "title": "Home Product 79",
+                "description": "High-quality home item number 79 for your daily needs.",
+                "price": 9157.43,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=79"
+              },
+              {
+                "id": 80,
+                "title": "Home Product 80",
+                "description": "High-quality home item number 80 for your daily needs.",
+                "price": 6474.14,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=80"
+              },
+              {
+                "id": 81,
+                "title": "Home Product 81",
+                "description": "High-quality home item number 81 for your daily needs.",
+                "price": 9410.74,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=81"
+              },
+              {
+                "id": 82,
+                "title": "Tech Product 82",
+                "description": "High-quality tech item number 82 for your daily needs.",
+                "price": 9021.0,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=82"
+              },
+              {
+                "id": 83,
+                "title": "Sports Product 83",
+                "description": "High-quality sports item number 83 for your daily needs.",
+                "price": 7093.79,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=83"
+              },
+              {
+                "id": 84,
+                "title": "Sports Product 84",
+                "description": "High-quality sports item number 84 for your daily needs.",
+                "price": 3197.21,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=84"
+              },
+              {
+                "id": 85,
+                "title": "Home Product 85",
+                "description": "High-quality home item number 85 for your daily needs.",
+                "price": 7316.75,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=85"
+              },
+              {
+                "id": 86,
+                "title": "Sports Product 86",
+                "description": "High-quality sports item number 86 for your daily needs.",
+                "price": 3740.88,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=86"
+              },
+              {
+                "id": 87,
+                "title": "Fashion Product 87",
+                "description": "High-quality fashion item number 87 for your daily needs.",
+                "price": 3978.43,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=87"
+              },
+              {
+                "id": 88,
+                "title": "Sports Product 88",
+                "description": "High-quality sports item number 88 for your daily needs.",
+                "price": 8026.07,
+                "category": "sports",
+                "image": "https://source.unsplash.com/300x300/?sports,fitness,gear&sig=88"
+              },
+              {
+                "id": 89,
+                "title": "Home Product 89",
+                "description": "High-quality home item number 89 for your daily needs.",
+                "price": 543.19,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=89"
+              },
+              {
+                "id": 90,
+                "title": "Beauty Product 90",
+                "description": "High-quality beauty item number 90 for your daily needs.",
+                "price": 8488.21,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=90"
+              },
+              {
+                "id": 91,
+                "title": "Beauty Product 91",
+                "description": "High-quality beauty item number 91 for your daily needs.",
+                "price": 2678.79,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=91"
+              },
+              {
+                "id": 92,
+                "title": "Beauty Product 92",
+                "description": "High-quality beauty item number 92 for your daily needs.",
+                "price": 9231.55,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=92"
+              },
+              {
+                "id": 93,
+                "title": "Tech Product 93",
+                "description": "High-quality tech item number 93 for your daily needs.",
+                "price": 3819.34,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=93"
+              },
+              {
+                "id": 94,
+                "title": "Tech Product 94",
+                "description": "High-quality tech item number 94 for your daily needs.",
+                "price": 6817.03,
+                "category": "tech",
+                "image": "https://source.unsplash.com/300x300/?electronics,smartphone,gadget&sig=94"
+              },
+              {
+                "id": 95,
+                "title": "Fashion Product 95",
+                "description": "High-quality fashion item number 95 for your daily needs.",
+                "price": 2237.21,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=95"
+              },
+              {
+                "id": 96,
+                "title": "Fashion Product 96",
+                "description": "High-quality fashion item number 96 for your daily needs.",
+                "price": 1526.34,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=96"
+              },
+              {
+                "id": 97,
+                "title": "Beauty Product 97",
+                "description": "High-quality beauty item number 97 for your daily needs.",
+                "price": 763.5,
+                "category": "beauty",
+                "image": "https://source.unsplash.com/300x300/?makeup,beauty,skincare&sig=97"
+              },
+              {
+                "id": 98,
+                "title": "Fashion Product 98",
+                "description": "High-quality fashion item number 98 for your daily needs.",
+                "price": 1082.64,
+                "category": "fashion",
+                "image": "https://source.unsplash.com/300x300/?fashion,clothing,tshirt&sig=98"
+              },
+              {
+                "id": 99,
+                "title": "Home Product 99",
+                "description": "High-quality home item number 99 for your daily needs.",
+                "price": 7901.12,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=99"
+              },
+              {
+                "id": 100,
+                "title": "Home Product 100",
+                "description": "High-quality home item number 100 for your daily needs.",
+                "price": 2628.44,
+                "category": "home",
+                "image": "https://source.unsplash.com/300x300/?furniture,home,interior&sig=100"
+              }
+            
+          
         
       
       
