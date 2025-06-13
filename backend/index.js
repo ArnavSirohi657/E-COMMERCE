@@ -13,7 +13,11 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: "https://e-commerce-yoj9.onrender.com", // your frontend URL
+  credentials: true, // optional: only if you're using cookies/session
+}));
+
 app.use(express.json());
 
 // API Routes
