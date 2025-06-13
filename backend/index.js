@@ -11,7 +11,10 @@ import authRoutes from "./routes/authRoutes.js";
 
 dotenv.config();
 const app = express();
-const FRONTEND_URL = "https://e-commerce-fpf4.onrender.com/"; // ← your frontend's Render URL
+
+// ✅ CORS: No trailing slash here
+const FRONTEND_URL = "https://e-commerce-fpf4.onrender.com";
+
 // Middleware
 app.use(cors({
   origin: FRONTEND_URL,
@@ -38,11 +41,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Serve static files
-app.use(express.static(path.join(__dirname, "../frontend/dist"))); // Use ../frontend/build if using CRA
+app.use(express.static(path.join(__dirname, "../frontend/dist"))); // Use ../frontend/build if CRA
 
-// Catch-all route to serve index.html for React Router
+// Catch-all route for React Router
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/dist/index.html")); // Or ../frontend/build/index.html
+  res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
 });
 
 // Server
