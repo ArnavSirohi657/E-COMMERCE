@@ -5,7 +5,7 @@ import "../CSS/SearchResult.css";
 import { useCart } from "../context/CartContext";
 
 // Use environment variable or fallback to local dev server
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://e-commerce-yoj9.onrender.com";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://e-commerce-fpf4.onrender.com";
 
 export default function SearchResults() {
   const [results, setResults] = useState([]);
