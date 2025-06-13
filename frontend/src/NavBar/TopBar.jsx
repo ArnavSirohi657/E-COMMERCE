@@ -1,20 +1,49 @@
-import "../CSS/TopBar.css";
-import { FaSearch, FaShoppingCart } from "react-icons/fa";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { FaSearch, FaShoppingCart } from "react-icons/fa";
+import { useCart } from "../context/CartContext";
+import "../CSS/TopBar.css";
 
 export default function TopBar() {
   const [searchTerm, setSearchTerm] = useState("");
   const [category, setCategory] = useState("all");
+  const [userName, setUserName] = useState(null);
   const navigate = useNavigate();
+  const { cartItems } = useCart();
+
+  useEffect(() => {
+    const loadUser = () => {
+      const user = localStorage.getItem("user");
+      if (user) {
+        const parsed = JSON.parse(user);
+        setUserName(parsed.name);
+      } else {
+        setUserName(null); // handle logout or no user
+      }
+    };
+
+    // Initial load
+    loadUser();
+
+    // Listen for login/signup
+    window.addEventListener("user-logged-in", loadUser);
+
+    // Optional: handle logout if needed
+    window.addEventListener("user-logged-out", loadUser);
+
+    return () => {
+      window.removeEventListener("user-logged-in", loadUser);
+      window.removeEventListener("user-logged-out", loadUser);
+    };
+  }, []);
 
   const handleSignin = () => {
-    window.location.href = "https://e-commerce-fpf4.onrender.com/signin";
+    if (userName) return; // already signed in
+    navigate("/signin");
   };
 
   const handleSearch = () => {
     if (searchTerm.trim() !== "") {
-      // Send both search term and category if needed
       navigate(`/search?q=${searchTerm.trim()}&category=${category}`);
     }
   };
@@ -31,7 +60,6 @@ export default function TopBar() {
         <img src="/logo.png" alt="Logo" className="logo" />
         <div className="location">
           <span className="small-text">Delivering to Delhi 110008</span>
-          <strong>Update location</strong>
         </div>
       </div>
 
@@ -71,8 +99,8 @@ export default function TopBar() {
         </div>
 
         <button className="topbar-btn account" onClick={handleSignin}>
-          <span>Hello, sign in</span>
-          <strong>Account & Lists</strong>
+          <span>Hello, {userName || "sign in"}</span>
+          <strong>{userName ? "Account" : "Account & Lists"}</strong>
         </button>
 
         <button className="topbar-btn orders">
@@ -80,9 +108,9 @@ export default function TopBar() {
           <strong>& Orders</strong>
         </button>
 
-        <button className="topbar-btn cart">
+        <button className="topbar-btn cart" onClick={() => navigate("/cart")}>
           <FaShoppingCart />
-          <span>Cart</span>
+          <span>Cart ({cartItems.length})</span>
         </button>
       </div>
     </div>

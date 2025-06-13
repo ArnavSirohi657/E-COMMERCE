@@ -1,10 +1,10 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
+import axios from "../utils/axiosInstance"; // ✅ use axiosInstance
 import { useEffect, useState } from "react";
 import "../CSS/ProductDetail.css";
 import DeliveryInfo from "./DeliveryInfo";
 import { Truck, ChevronRight, Shield, ArrowLeftRight } from "lucide-react";
-import { useNavigate } from "react-router-dom";
-import axios from "../utils/axiosInstance";
+import { useCart } from "../context/CartContext";
 
 const loadRazorpayScript = () => {
   return new Promise((resolve) => {
@@ -22,35 +22,23 @@ export default function ProductDetail() {
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [loading, setLoading] = useState(true);
-  const [productsList, setProductsList] = useState([]); // For the products data
 
-  // Safe API call for products list (only runs in browser)
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    
-    axios.get("/api/products")
-      .then((res) => {
-        setProductsList(res.data);
-      })
-      .catch((err) => {
-        console.error("Error fetching products:", err);
-      });
-  }, []);
+  const navigate = useNavigate();
+  const { addToCart } = useCart();
 
-  // Fetch single product data
   useEffect(() => {
     setLoading(true);
-    axios.get(`/api/products/${id}`)
+    axios
+      .get(`/api/products/${id}`) // ✅ Use relative path
       .then((res) => {
         setProduct(res.data);
+        setLoading(false);
       })
       .catch((err) => {
         console.error("Error fetching product:", err);
-      })
-      .finally(() => setLoading(false));
+        setLoading(false);
+      });
   }, [id]);
-
-  const navigate = useNavigate();
 
   const handleBuyNow = () => {
     const fakeOrderId = "order_" + Math.random().toString(36).substring(2, 10);
@@ -58,7 +46,7 @@ export default function ProductDetail() {
     navigate(`/checkout/${fakeOrderId}/${amount}`);
   };
 
-  if (loading) {
+  if (loading)
     return (
       <div className="container py-5">
         <div className="placeholder-glow">
@@ -66,11 +54,8 @@ export default function ProductDetail() {
         </div>
       </div>
     );
-  }
 
-  if (!product) {
-    return <div className="container py-5">Product not found</div>;
-  }
+  if (!product) return <div className="container py-5">Product not found</div>;
 
   return (
     <div className="container py-4 amazon-product-detail">
@@ -154,7 +139,19 @@ export default function ProductDetail() {
           </div>
 
           <div className="button-group d-flex gap-3 mb-4">
-            <button className="btn btn-warning btn-amazon-yellow flex-grow-1 py-2 fw-bold">
+            <button
+              className="btn btn-warning btn-amazon-yellow flex-grow-1 py-2 fw-bold"
+              onClick={() => {
+                addToCart({
+                  id: product._id,
+                  title: product.title,
+                  price: product.price,
+                  image: product.image,
+                  quantity,
+                });
+                alert("✅ Product added to cart!");
+              }}
+            >
               Add to Cart
             </button>
             <button

@@ -1,31 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "../CSS/DeliveryInfo.css";
 import { MapPin, Truck } from "lucide-react";
-import axios from "../utils/axiosInstance";
 
 export default function DeliveryInfo() {
   const [pincode, setPincode] = useState("");
   const [location, setLocation] = useState("");
-  const [products, setProducts] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
-
-  // Safe API call that only runs in browser
-  useEffect(() => {
-    // Skip during SSR/build time
-    if (typeof window === "undefined") return;
-
-    setIsLoading(true);
-    axios.get("/api/products")
-      .then((res) => {
-        setProducts(res.data);
-      })
-      .catch((err) => {
-        console.error("Failed to fetch products:", err);
-        setError("Failed to load delivery information");
-      })
-      .finally(() => setIsLoading(false));
-  }, []);
 
   const handleCheck = () => {
     if (pincode.length === 6) {
@@ -51,28 +30,18 @@ export default function DeliveryInfo() {
           className="form-control amazon-pincode-input"
           placeholder="Enter pincode"
           value={pincode}
-          onChange={(e) => setPincode(e.target.value.replace(/\D/g, ""))}
+          onChange={(e) => setPincode(e.target.value.replace(/\D/g, ''))}
           maxLength={6}
         />
-        <button
+        <button 
           className="btn btn-sm amazon-pincode-btn"
           onClick={handleCheck}
-          disabled={isLoading}
         >
-          {isLoading ? "Checking..." : "Apply"}
+          Apply
         </button>
       </div>
 
-      {isLoading && <small className="text-muted">Loading delivery options...</small>}
-      
-      {error && (
-        <div className="d-flex">
-          <Truck size={16} className="me-2 text-muted mt-1" />
-          <small className="text-danger">{error}</small>
-        </div>
-      )}
-
-      {location && !error && (
+      {location && (
         <div className="d-flex">
           <Truck size={16} className="me-2 text-muted mt-1" />
           <small className={`${location.includes("valid") ? "text-danger" : "text-success"}`}>
