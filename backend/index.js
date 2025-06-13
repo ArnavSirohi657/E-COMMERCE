@@ -11,11 +11,11 @@ import authRoutes from "./routes/authRoutes.js";
 
 dotenv.config();
 const app = express();
-
+const FRONTEND_URL = "https://e-commerce-yoj9.onrender.com"; // ← your frontend's Render URL
 // Middleware
 app.use(cors({
-  origin: "https://e-commerce-yoj9.onrender.com", // your frontend URL
-  credentials: true, // optional: only if you're using cookies/session
+  origin: FRONTEND_URL,
+  credentials: true,
 }));
 
 app.use(express.json());
