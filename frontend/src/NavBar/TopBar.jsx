@@ -9,7 +9,7 @@ export default function TopBar() {
   const navigate = useNavigate();
 
   const handleSignin = () => {
-    window.location.href = "http://localhost:5173/signin";
+    window.location.href = "https://e-commerce-g51r.onrender.com/signin";
   };
 
   const handleSearch = () => {
