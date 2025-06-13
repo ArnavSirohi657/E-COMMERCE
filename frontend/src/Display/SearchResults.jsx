@@ -5,6 +5,7 @@ import "../CSS/SearchResult.css";
 
 export default function SearchResults() {
   const [results, setResults] = useState([]);
+  const [error, setError] = useState(null);
   const location = useLocation();
   const query = new URLSearchParams(location.search).get("q");
 
@@ -13,8 +14,20 @@ export default function SearchResults() {
 
     axiosInstance
       .get(`/products/search?q=${query}`)
-      .then((res) => setResults(res.data))
-      .catch((err) => console.error("Search Error:", err));
+      .then((res) => {
+        console.log("Search API response:", res.data);
+        if (Array.isArray(res.data)) {
+          setResults(res.data);
+        } else {
+          setResults([]);
+          setError("Invalid response format from server.");
+        }
+      })
+      .catch((err) => {
+        console.error("Search Error:", err);
+        setResults([]);
+        setError("Failed to fetch search results.");
+      });
   }, [query]);
 
   const calculateDiscount = (originalPrice, currentPrice) => {
@@ -24,7 +37,7 @@ export default function SearchResults() {
 
   const getDeliveryDate = () => {
     const today = new Date();
-    today.setDate(today.getDate() + 2); // e.g., delivery in 2 days
+    today.setDate(today.getDate() + 2);
     return today.toLocaleDateString("en-IN", {
       weekday: "short",
       month: "short",
@@ -39,13 +52,20 @@ export default function SearchResults() {
         <p className="results-count">{results.length} result(s)</p>
       </div>
 
+      {error && (
+        <div className="error-message">
+          <p className="text-danger">{error}</p>
+        </div>
+      )}
+
       <div className="amazon-product-grid">
-        {results.length === 0 ? (
+        {Array.isArray(results) && results.length === 0 && !error ? (
           <div className="no-results-container">
             <p className="no-results">No products found matching your search.</p>
             <Link to="/" className="keep-shopping-btn">Keep Shopping</Link>
           </div>
         ) : (
+          Array.isArray(results) &&
           results.map((product) => {
             const original = product.originalPrice || product.price * 1.2;
             const discount = calculateDiscount(original, product.price);
