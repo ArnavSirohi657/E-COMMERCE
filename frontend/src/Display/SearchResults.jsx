@@ -12,8 +12,7 @@ export default function SearchResults() {
   useEffect(() => {
     if (!query) return;
 
-    axiosInstance
-      .get(`/products/search?q=${query}`)
+    axiosInstance.get(`/search?q=${query}`)
       .then((res) => {
         console.log("Search API response:", res.data);
         if (Array.isArray(res.data)) {
