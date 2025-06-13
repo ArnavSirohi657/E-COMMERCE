@@ -28,7 +28,7 @@ export default function TopBar() {
   return (
     <div className="topbar">
       <div className="topbar-left">
-        <img src="/Logo.jpg" alt="Logo" className="logo" />
+        <img src="/logo.png" alt="Logo" className="logo" />
         <div className="location">
           <span className="small-text">Delivering to Delhi 110008</span>
           <strong>Update location</strong>
