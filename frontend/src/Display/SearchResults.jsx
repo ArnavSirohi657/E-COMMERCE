@@ -11,12 +11,15 @@ export default function SearchResults() {
 
   useEffect(() => {
     if (!query) return;
-
-    axiosInstance.get(`/search?q=${query}`)
+  
+    axiosInstance.get(`/api/products/search`, {
+      params: { q: query, category: "all" }
+    })
       .then((res) => {
         console.log("Search API response:", res.data);
         if (Array.isArray(res.data)) {
           setResults(res.data);
+          setError(null);
         } else {
           setResults([]);
           setError("Invalid response format from server.");
@@ -28,7 +31,7 @@ export default function SearchResults() {
         setError("Failed to fetch search results.");
       });
   }, [query]);
-
+  
   const calculateDiscount = (originalPrice, currentPrice) => {
     const discount = Math.round(((originalPrice - currentPrice) / originalPrice) * 100);
     return discount > 0 ? discount : null;
