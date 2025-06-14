@@ -1,30 +1,25 @@
-# 🛒 Amazon Clone – E-Commerce Store
+🛒 Amazon Clone – Full-Stack E-Commerce Application
+A fully functional Amazon-inspired e-commerce web application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). The platform offers seamless product browsing, user authentication, a shopping cart, admin functionalities, and a responsive design across all devices.
 
-A fully functional Amazon-inspired e-commerce web application built with **MERN Stack (MongoDB, Express.js, React, Node.js)**. This project includes product listings, user authentication, cart functionality, and admin-level features for managing products.
+🚀 Key Features
+🔐 User Authentication – Secure login/signup with JWT
 
----
+🛍️ Product Listings – Categorized product display
 
-## 🚀 Features
+🛒 Shopping Cart – Add to cart, quantity update, remove items
 
-- 🔐 User Authentication (Login / Signup)
-- 🛍️ Product Listings by Category
-- 🛒 Add to Cart & Cart Page
-- 🧾 Checkout Flow (frontend only)
-- 📦 Admin Panel (Add / Delete Products)
-- 📱 Fully Responsive UI (Bootstrap + CSS)
-- 🌐 RESTful API with Express and MongoDB
+💳 Checkout Flow – Stripe payment integration (frontend logic)
 
----
+🧑‍💼 Admin Panel – Manage products and view user orders
 
-## 🧰 Tech Stack
+📱 Responsive Design – Optimized for all screen sizes
 
-| Frontend      | Backend         | Database   | Tools            |
-| ------------- | --------------- | ---------- | ---------------- |
-| React.js      | Node.js         | MongoDB    | Git & GitHub     |
-| Bootstrap 5   | Express.js      | Mongoose   | Vite (React Tool)|
-| Axios         | JWT             |            |          |
+🌐 RESTful API – Backend APIs built using Express.js and MongoDB
 
----
-
-## 📁 Folder Structure
-
+🧰 Tech Stack
+Category	Technologies
+Frontend	React.js, Bootstrap 5, Axios
+Backend	Node.js, Express.js
+Database	MongoDB, Mongoose
+Auth	JSON Web Token (JWT)
+Tools	Git, GitHub, Vite, Stripe (Payment Integration)
